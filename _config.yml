@@ -22,12 +22,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Derui Lyu"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/glass.jpg"
   bio              : "Univesity of Science and Technology of China (USTC)"
   location         : "Hefei, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar    : "https://scholar.google.com/citations?user=8y_rd1IAAAAJ"
   email            : "derrylv@qq.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
