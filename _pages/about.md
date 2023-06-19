@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Derui Lyu received the B.Sc. degree in intelligence science and technology from the [School of Artificial Intelligence](https://sai.xidian.edu.cn/), [Xidian University](https://www.xidian.edu.cn/), Xian, China, in 2021. He is currently pursuing the M.Sc. degree with the [School of Computer Science and Technology](https://cs.ustc.edu.cn/), [University of Science and Technology of China](https://www.ustc.edu.cn/), Hefei, China.
+Derui Lyu received the B.Sc. degree in intelligence science and technology from the [School of Artificial Intelligence](https://sai.xidian.edu.cn/), [Xidian University](https://www.xidian.edu.cn/), Xian, China, in 2021. He is currently pursuing the Ph.D. degree with the [School of Computer Science and Technology](https://cs.ustc.edu.cn/), [University of Science and Technology of China](https://www.ustc.edu.cn/), Hefei, China.
 
 My current research interests include machine learning and knowledge engineering.
 I have published several papers at AI journals with total <a href='https://scholar.google.com/citations?user=8y_rd1IAAAAJ'>google scholar citations <strong><span id='total_cit'></span></strong></a>. <a href='https://scholar.google.com/citations?user=8y_rd1IAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
@@ -45,8 +45,8 @@ I have published several papers at AI journals with total <a href='https://schol
  -->
 
 # 📖 Educations
-- *2022.09 - now*, Computer Science and Technology, University of Science and Technology of China (USTC), Hefei, China
-- *2017.09 - 2022.06*, Intelligence Science and Technology, School of Artificial Intelligence, Xidian University, Xi'an, China
+- *2022.09 - now*, Ph.D. Candidate, Computer Science and Technology, University of Science and Technology of China (USTC), Hefei, China
+- *2017.09 - 2022.06*, B. Sc.,Intelligence Science and Technology, School of Artificial Intelligence, Xidian University, Xi'an, China
 
 # 💻 Internships
 - *2021.12 - 2022.04*, Core Technology Researcher, AI Research Institute, Core R&D Platform, [iFLYTEK](https://www.iflytek.com/), Hefei, China.
