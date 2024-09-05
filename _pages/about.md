@@ -45,8 +45,8 @@ I have published several papers at AI journals with total <a href='https://schol
  -->
 
 # 📖 Educations
-- *2022.09 - now*, Ph.D. Candidate, Computer Science and Technology, University of Science and Technology of China (USTC), Hefei, China
-- *2017.09 - 2022.06*, B. Sc.,Intelligence Science and Technology, School of Artificial Intelligence, Xidian University, Xi'an, China
+- *2021.09 - now*, Ph.D. Candidate, Computer Science and Technology, University of Science and Technology of China (USTC), Hefei, China
+- *2017.09 - 2021.06*, B. Sc., Intelligence Science and Technology, School of Artificial Intelligence, Xidian University, Xi'an, China
 
 # 💻 Internships
 - *2021.12 - 2022.04*, Core Technology Researcher, AI Research Institute, Core R&D Platform, [iFLYTEK](https://www.iflytek.com/), Hefei, China.
