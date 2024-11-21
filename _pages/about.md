@@ -19,8 +19,8 @@ redirect_from:
 
 Derui Lyu received the B.Sc. degree in intelligence science and technology from the [School of Artificial Intelligence](https://sai.xidian.edu.cn/), [Xidian University](https://www.xidian.edu.cn/), Xian, China, in 2021. He is currently pursuing the Ph.D. degree with the [School of Computer Science and Technology](https://cs.ustc.edu.cn/), [University of Science and Technology of China](https://www.ustc.edu.cn/), Hefei, China.
 
-My current research interests include machine learning and knowledge engineering.
-I have published several papers at top AI journals/conferences with total <a href='https://scholar.google.com/citations?user=8y_rd1IAAAAJ'>google scholar citations <strong><span id='total_cit'></span></strong></a>. <a href='https://scholar.google.com/citations?user=8y_rd1IAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+His current research interests include knowledge engineering with large language models.
+He have published several papers at top AI journals/conferences with total <a href='https://scholar.google.com/citations?user=8y_rd1IAAAAJ'> google scholar citations <strong><span id='total_cit'></span></strong></a>. <a href='https://scholar.google.com/citations?user=8y_rd1IAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 <!-- 
 # 🔥 News
