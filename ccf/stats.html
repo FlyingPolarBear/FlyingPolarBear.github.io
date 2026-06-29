@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CCF推荐期刊会议目录（2026）统计页，展示分方向数量、IF概率分布、JCR和中科院分区可视化。">
+  <meta name="theme-color" content="#f5f7f7">
+  <title>统计表 - CCF推荐期刊会议目录（2026）</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner stats-header-inner">
+      <div class="brand-block">
+        <a class="brand-title" href="index.html">CCF推荐期刊会议目录（2026）</a>
+        <span class="data-updated" id="dataUpdated">数据更新 -</span>
+      </div>
+      <div class="header-spacer"></div>
+      <div class="header-actions">
+        <a class="ghost-link" href="index.html">目录清单</a>
+        <a class="ghost-link" href="ccf-2026-official.pdf">PDF</a>
+        <button class="ghost-button" id="themeToggle" type="button">深色</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats-panel stats-overview-panel">
+      <div class="section-head">
+        <h1>统计表</h1>
+        <p id="statsTotal">-</p>
+      </div>
+      <div class="stats-card-grid" id="statsCards"></div>
+    </section>
+
+    <section class="stats-layout">
+      <section class="stats-panel">
+        <div class="section-head compact-head">
+          <h1>分区综合分</h1>
+          <p>IF / JCR / 中科院</p>
+        </div>
+        <div class="score-bars" id="scoreBars"></div>
+      </section>
+
+      <section class="stats-panel">
+        <div class="section-head compact-head">
+          <h1>分区热力图</h1>
+          <p>JCR 与中科院</p>
+        </div>
+        <div class="heatmap-wrap" id="partitionHeatmap"></div>
+      </section>
+    </section>
+
+    <section class="stats-panel">
+      <div class="section-head compact-head">
+        <h1>影响因子概率分布图</h1>
+        <div class="impact-head-actions">
+          <p id="impactChartNote">JCR 分区密度 / IF</p>
+          <div class="impact-mode" id="impactMode" role="group" aria-label="影响因子分组方式">
+            <button class="impact-mode-button active" type="button" data-impact-mode="jcr" aria-pressed="true">JCR</button>
+            <button class="impact-mode-button" type="button" data-impact-mode="ccf" aria-pressed="false">CCF</button>
+            <button class="impact-mode-button" type="button" data-impact-mode="cas" aria-pressed="false">中科院</button>
+            <button class="impact-mode-button" type="button" data-impact-mode="domain" aria-pressed="false">方向</button>
+          </div>
+        </div>
+      </div>
+      <div class="impact-chart" id="impactChart"></div>
+    </section>
+
+    <section class="stats-panel">
+      <div class="section-head">
+        <h1>分方向指标表</h1>
+        <p>分数越高越靠前</p>
+      </div>
+      <div class="table-scroll">
+        <table class="stats-table score-table">
+          <thead>
+            <tr>
+              <th scope="col">方向</th>
+              <th scope="col">条目</th>
+              <th scope="col">会议</th>
+              <th scope="col">期刊</th>
+              <th scope="col">A/B/C</th>
+              <th scope="col">平均IF</th>
+              <th scope="col">IF分</th>
+              <th scope="col">JCR分</th>
+              <th scope="col">中科院分</th>
+              <th scope="col">分区分</th>
+            </tr>
+          </thead>
+          <tbody id="scoreTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="stats-panel">
+      <div class="section-head">
+        <h1>分方向数量表</h1>
+        <p>会议 / 期刊 / 等级</p>
+      </div>
+      <div class="table-scroll">
+        <table class="stats-table">
+          <thead>
+            <tr>
+              <th scope="col" rowspan="2">方向</th>
+              <th scope="colgroup" colspan="4">会议</th>
+              <th scope="colgroup" colspan="4">期刊</th>
+              <th scope="col" rowspan="2">总计</th>
+            </tr>
+            <tr>
+              <th scope="col">A</th>
+              <th scope="col">B</th>
+              <th scope="col">C</th>
+              <th scope="col">汇总</th>
+              <th scope="col">A</th>
+              <th scope="col">B</th>
+              <th scope="col">C</th>
+              <th scope="col">汇总</th>
+            </tr>
+          </thead>
+          <tbody id="statsTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" id="backToTop" type="button">回顶部</button>
+  <noscript>此页面需要启用 JavaScript 才能显示统计。</noscript>
+  <script src="ccf-2026-data.js"></script>
+  <script src="stats.js"></script>
+</body>
+</html>

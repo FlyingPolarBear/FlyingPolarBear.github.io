@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CCF推荐期刊会议目录（2026）单页检索版，支持类型、等级、方向、IF、JCR和中科院分区筛选。">
+  <meta name="theme-color" content="#f5f7f7">
+  <title>CCF推荐期刊会议目录（2026）</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <div class="brand-block">
+        <a class="brand-title" href="index.html">CCF推荐期刊会议目录（2026）</a>
+        <span class="data-updated" id="dataUpdated">数据更新 -</span>
+      </div>
+      <label class="top-search" for="searchInput">
+        <span class="sr-only">搜索</span>
+        <input id="searchInput" type="search" placeholder="搜索简称、全称、出版社/组织、IF/JCR/中科院">
+      </label>
+      <div class="header-actions">
+        <button id="resetFilters" class="secondary-button" type="button">重置</button>
+        <button id="downloadXlsx" class="primary-button" type="button">下载当前结果</button>
+        <button id="copyLink" class="ghost-button" type="button">复制链接</button>
+        <a class="ghost-link" href="stats.html">统计表</a>
+        <a class="ghost-link" href="ccf-2026-official.pdf">PDF</a>
+        <button class="ghost-button" id="themeToggle" type="button">深色</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="summary-panel" aria-label="目录筛选">
+      <section class="facet-section all-filter-section" aria-label="全部">
+        <div class="facet-grid all-facet-grid" id="allSummary"></div>
+      </section>
+
+      <section class="facet-section" aria-label="类型">
+        <div class="facet-grid type-facet-grid" id="typeSummary"></div>
+      </section>
+
+      <section class="facet-section" aria-label="等级">
+        <div class="facet-grid rank-facet-grid" id="rankSummary"></div>
+      </section>
+
+      <section class="facet-section domain-section" aria-label="方向">
+        <div class="domain-grid" id="domainSummary"></div>
+      </section>
+    </section>
+
+    <section class="results-section">
+      <div class="section-head">
+        <h1>目录清单</h1>
+        <p id="resultCount">-</p>
+      </div>
+      <div class="mobile-sort-controls" aria-label="移动端排序">
+        <label for="mobileSortKey">
+          <span>排序</span>
+          <select id="mobileSortKey">
+            <option value="domainShort">方向</option>
+            <option value="typeLabel">类型</option>
+            <option value="rank">等级</option>
+            <option value="deadlineMonth">截稿</option>
+            <option value="abbr">简称</option>
+            <option value="name">全称</option>
+            <option value="publisher">出版社/组织</option>
+            <option value="impactFactor">IF</option>
+            <option value="jcrQuartile">JCR</option>
+            <option value="casPartition">中科院</option>
+          </select>
+        </label>
+        <button id="mobileSortDir" type="button">升序</button>
+      </div>
+      <div class="table-scroll">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th class="domain-col" scope="col" data-sort="domainShort">方向</th>
+              <th class="type-col" scope="col" data-sort="typeLabel">类型</th>
+              <th class="rank-col" scope="col" data-sort="rank">等级</th>
+              <th class="deadline-col" scope="col" data-sort="deadlineMonth">截稿</th>
+              <th class="abbr-col" scope="col" data-sort="abbr">简称</th>
+              <th class="name-col" scope="col" data-sort="name">全称</th>
+              <th class="publisher-col" scope="col" data-sort="publisher">出版社/组织</th>
+              <th class="if-col" scope="col" data-sort="impactFactor">IF</th>
+              <th class="jcr-col" scope="col" data-sort="jcrQuartile">JCR</th>
+              <th class="cas-col" scope="col" data-sort="casPartition">中科院</th>
+            </tr>
+          </thead>
+          <tbody id="resultBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" id="backToTop" type="button">回顶部</button>
+  <noscript>此页面需要启用 JavaScript 才能检索目录。</noscript>
+  <script src="ccf-2026-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

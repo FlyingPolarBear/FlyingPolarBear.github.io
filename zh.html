@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>吕德锐 (Derui Lyu) — 博士研究生 @ 中国科大</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <style>
+        :root {
+            --primary-color: #D64545;
+            /* 主色调 */
+            --primary-hover: #b03535;
+            --text-dark: #1e293b;
+            --text-gray: #64748b;
+            --bg-light: #f8fafc;
+            --border-color: #e2e8f0;
+
+            /* 分区颜色变量 */
+            --tier-a-bg: #fee2e2;
+            --tier-a-text: #991b1b;
+            --tier-b-bg: #ffedd5;
+            --tier-b-text: #9a3412;
+            --tier-c-bg: #fef9c3;
+            --tier-c-text: #854d0e;
+        }
+
+        body {
+            /* 增加中文字体支持 */
+            font-family: 'Inter', "Microsoft YaHei", -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+            padding-top: 70px;
+            /* 为固定导航栏留出空间 */
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.2s;
+        }
+
+        a:hover {
+            color: var(--primary-color);
+        }
+
+        /* --- 导航栏 --- */
+        .navbar-custom {
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            padding: 10px 0;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: var(--text-dark);
+        }
+
+        .nav-link {
+            font-weight: 500;
+            color: var(--text-gray);
+            margin-left: 15px;
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
+            color: var(--primary-color);
+        }
+
+        /* --- 布局结构 --- */
+        .page-wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            /* 左侧固定280px，右侧自适应 */
+            gap: 50px;
+        }
+
+        /* --- 左侧侧边栏 (Profile) --- */
+        .profile-sidebar {
+            position: sticky;
+            top: 100px;
+            /* 距离顶部导航栏的距离 */
+            height: fit-content;
+            text-align: center;
+        }
+
+        .avatar-box {
+            width: 160px;
+            height: 160px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 4px solid #fff;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .avatar-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            /* 保证校徽完整显示 */
+            padding: 10px;
+            /* 给校徽一点内边距 */
+        }
+
+        .profile-name {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+            color: var(--text-dark);
+        }
+
+        .profile-name-en {
+            font-size: 1.1rem;
+            font-weight: normal;
+            color: var(--text-gray);
+            display: block;
+            margin-top: -5px;
+        }
+
+        .profile-title {
+            font-size: 0.95rem;
+            color: var(--text-gray);
+            margin-bottom: 5px;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .contact-btn {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-dark);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            font-size: 1.1rem;
+        }
+
+        .contact-btn:hover {
+            background: var(--primary-color);
+            color: #fff;
+            transform: translateY(-2px);
+        }
+
+        /* --- 右侧内容区 --- */
+        .section-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            scroll-margin-top: 100px;
+            /* 锚点定位偏移 */
+        }
+
+        /* Education & Internship */
+        .timeline-item {
+            margin-bottom: 20px;
+            padding-left: 20px;
+            border-left: 3px solid var(--border-color);
+        }
+
+        .timeline-date {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .timeline-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin: 4px 0;
+        }
+
+        .timeline-place {
+            color: var(--text-gray);
+            font-size: 0.95rem;
+        }
+
+        /* Tags for Interests */
+        .tag-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tag-item {
+            background: #fff;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+            border: 1px solid var(--border-color);
+        }
+
+        /* --- Publications Card (Enhanced) --- */
+        .pub-year-heading {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #cbd5e1;
+            margin: 40px 0 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .pub-year-heading:first-of-type {
+            margin-top: 0;
+        }
+
+        .pub-card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid var(--border-color);
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            gap: 20px;
+        }
+
+        .pub-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+            border-color: rgba(214, 69, 69, 0.3);
+        }
+
+        .pub-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            min-width: 100px;
+        }
+
+        .btn-action {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            border: 1px solid var(--border-color);
+            background: #f8fafc;
+            color: var(--text-dark);
+        }
+
+        .btn-action:hover {
+            background: var(--text-dark);
+            color: #fff;
+            border-color: var(--text-dark);
+        }
+
+        .btn-action.pdf {
+            color: var(--primary-color);
+            border-color: rgba(214, 69, 69, 0.3);
+            background: #fff;
+        }
+
+        .btn-action.pdf:hover {
+            background: var(--primary-color);
+            color: #fff;
+        }
+
+        .pub-details {
+            flex: 1;
+        }
+
+        .pub-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 8px;
+        }
+
+        .pub-title a {
+            color: var(--text-dark);
+        }
+
+        .pub-title a:hover {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+
+        .pub-authors {
+            font-size: 0.95rem;
+            color: #475569;
+            margin-bottom: 8px;
+        }
+
+        .pub-authors b {
+            color: var(--text-dark);
+            font-weight: 600;
+            border-bottom: 2px solid #ffd1d1;
+        }
+
+        /* 优化后的元数据行，包含全称 */
+        .pub-meta {
+            font-size: 0.9rem;
+            color: var(--text-gray);
+            margin-top: 6px;
+            line-height: 1.5;
+        }
+
+        .venue-full {
+            font-style: italic;
+            color: #334155;
+            margin-right: 8px;
+        }
+
+        .venue-abbr {
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+
+        .badge-chip {
+            padding: 1px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            vertical-align: middle;
+            margin-left: 4px;
+        }
+
+        .tier-a {
+            background: var(--tier-a-bg);
+            color: var(--tier-a-text);
+        }
+
+        .tier-b {
+            background: var(--tier-b-bg);
+            color: var(--tier-b-text);
+        }
+
+        .tier-c {
+            background: var(--tier-c-bg);
+            color: var(--tier-c-text);
+        }
+
+        /* --- Services Grid --- */
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 15px;
+        }
+
+        .service-item {
+            background: #fff;
+            padding: 12px 15px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .service-item a {
+            font-weight: 600;
+            color: #334155;
+        }
+
+        .service-badge {
+            font-size: 0.75rem;
+            background: #f1f5f9;
+            padding: 2px 8px;
+            border-radius: 4px;
+            color: #64748b;
+            font-weight: 600;
+        }
+
+        /* 移动端适配 */
+        @media (max-width: 768px) {
+            .page-wrapper {
+                grid-template-columns: 1fr;
+                gap: 30px;
+                padding-top: 20px;
+            }
+
+            .profile-sidebar {
+                position: static;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            .pub-card {
+                flex-direction: column;
+            }
+
+            .pub-actions {
+                flex-direction: row;
+            }
+
+            .btn-action {
+                flex: 1;
+            }
+        }
+
+        .pub-title-cn {
+            font-size: 0.95rem;
+            color: var(--text-gray);
+            line-height: 1.45;
+            margin: -2px 0 8px;
+        }
+    </style>
+</head>
+
+<body data-bs-offset="100" data-bs-spy="scroll" data-bs-target="#navbar-nav" tabindex="0">
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">吕德锐 (Derui Lyu)</a>
+            <button class="navbar-toggler" data-bs-target="#navbar-nav" data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-nav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#profile">主页</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">教育背景</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#interests">研究兴趣</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#publications">论文发表</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">学术服务</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#internship">实习经历</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-sm rounded-pill px-3" href="index.html"
+                            style="border: 1px solid var(--primary-color); color: var(--primary-color); font-weight: 600;"><i
+                                class="fa-solid fa-language me-1"></i> English</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="page-wrapper">
+        <aside class="profile-sidebar" id="profile">
+            <div class="avatar-box">
+                <img alt="USTC Logo" src="image/USTClogo.png" />
+            </div>
+            <h1 class="profile-name">吕德锐 <span class="profile-name-en">Derui Lyu</span></h1>
+            <div class="profile-title">博士研究生 (Ph.D. Candidate)</div>
+            <div class="profile-title">中国科学技术大学</div>
+            <div class="contact-links">
+                <a class="contact-btn" href="mailto:email@mail.ustc.edu.cn" title="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a class="contact-btn" href="https://scholar.google.com/" target="_blank" title="Google Scholar">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </a>
+                <a class="contact-btn" href="https://github.com/" target="_blank" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <div class="mt-4 text-start small text-muted px-2">
+                <p class="mb-2"><i class="fa-solid fa-location-dot me-2"></i> 安徽 · 合肥</p>
+                <p><i class="fa-solid fa-building-columns me-2"></i> 计算机科学与技术学院</p>
+            </div>
+        </aside>
+        <main>
+            <section class="section-title" id="education"><i class="fa-solid fa-user-graduate"></i> 教育背景</section>
+            <div class="mb-5">
+                <div class="timeline-item">
+                    <div class="timeline-date">2021.09 - 至今</div>
+                    <div class="timeline-title">计算机科学与技术专业 博士研究生</div>
+                    <div class="timeline-place">
+                        <a href="https://cs.ustc.edu.cn">中国科学技术大学 (USTC)</a>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2017.09 - 2021.06</div>
+                    <div class="timeline-title">智能科学与技术专业 工学学士</div>
+                    <div class="timeline-place">
+                        <a href="https://sai.xidian.edu.cn">西安电子科技大学 (XDU)</a>
+                    </div>
+                </div>
+            </div>
+            <section class="section-title" id="interests"><i class="fa-solid fa-lightbulb"></i> 研究兴趣</section>
+            <div class="mb-5 tag-cloud">
+                <span class="tag-item">因果学习 (Causal Learning)</span>
+                <span class="tag-item">零样本学习 (Zero-Shot Learning)</span>
+                <span class="tag-item">大模型知识工程 (Knowledge Eng. with LLMs)</span>
+                <span class="tag-item">类增量学习 (Class-Incremental Learning)</span>
+                <span class="tag-item">多源标记学习 (Multi-source Label Learning)</span>
+            </div>
+            <section id="publications">
+                <div class="section-title"><i class="fa-solid fa-book-open"></i> 代表性论文</div>
+                <h4 class="pub-year-heading">2026</h4>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://doi.org/10.1109/TPAMI.2026.3689960" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/TPAMI26-LLMCSL.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://doi.org/10.1109/TPAMI.2026.3689960"
+                                target="_blank">Autonomous Causal Discovery: Evaluating LLMs' Priors and Constraint
+                                Strategies for Reliability</a></div>
+                        <div class="pub-title-cn">自主因果发现：评估大语言模型先验与约束策略的可靠性</div>
+                        <div class="pub-authors">Lyuzhou Chen, Xiangyu Wang, Taiyu Ban, <b>Derui Lyu</b>, Qinrui Zhu,
+                            Xin Wang &amp; Huanhuan Chen</div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">TPAMI</span>:
+                            <span class="venue-full">IEEE Transactions on Pattern Analysis and Machine
+                                Intelligence</span>
+                            <span class="badge-chip tier-a">CCF-A</span>
+                            <span class="badge-chip tier-a">IF 18.6</span>
+                            <span class="badge-chip tier-a">JCR Q1</span>
+                            <span class="badge-chip tier-a">CAS Q1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://aaai.org/conference/aaai/aaai-26/" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/AAAI26-CDZSCE.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://aaai.org/conference/aaai/aaai-26/"
+                                target="_blank">Counterfactual-Driven Zero-Shot Classifier Expansion</a></div>
+                        <div class="pub-title-cn">反事实驱动的零样本分类器扩展</div>
+                        <div class="pub-authors">Xiangyu Wang, Yanze Gao, Changxin Rong, Lyuzhou Chen, <b>Derui Lyu</b>,
+                            Xiren Zhou, Taiyu Ban &amp; Huanhuan Chen</div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">AAAI'26</span>:
+                            <span class="venue-full">AAAI Conference on Artificial Intelligence</span>
+                            <span class="badge-chip tier-a">CCF-A</span>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="pub-year-heading">2025</h4>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://doi.org/10.24963/ijcai.2025/657" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/IJCAI25-CEMIL.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://doi.org/10.24963/ijcai.2025/657"
+                                target="_blank">Expanding the Category of Classifiers with LLM Supervision</a></div>
+                        <div class="pub-title-cn">基于大语言模型监督的分类器类别扩展</div>
+                        <div class="pub-authors"><b>Derui Lyu</b>, Xiangyu Wang, Taiyu Ban, Lyuzhou Chen, Xiren Zhou
+                            &amp;
+                            Huanhuan Chen</div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">IJCAI'25</span>:
+                            <span class="venue-full">International Joint Conference on Artificial Intelligence</span>
+                            <span class="badge-chip tier-a">CCF-A</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://doi.org/10.1007/s10115-025-02414-5" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/KAIS25-KGCS.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://doi.org/10.1007/s10115-025-02414-5"
+                                target="_blank">Improving Knowledge Graphs via Data-based Causal Structures</a></div>
+                        <div class="pub-title-cn">基于数据因果结构改进知识图谱</div>
+                        <div class="pub-authors"><b>Derui Lyu</b>, Xiangyu Wang, Lyuzhou Chen, Taiyu Ban, Kaiming Xiao
+                            &amp;
+                            Lihua Liu</div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">KAIS</span>:
+                            <span class="venue-full">Knowledge and Information Systems</span>
+                            <span class="badge-chip tier-b">CCF-B</span>
+                            <span class="badge-chip tier-c">IF 3.1</span>
+                            <span class="badge-chip tier-b">JCR Q2</span>
+                            <span class="badge-chip tier-c">CAS Q4</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://doi.org/10.1109/TKDE.2025.3528461" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/TKDE25-HarmonizedLLM.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://doi.org/10.1109/TKDE.2025.3528461"
+                                target="_blank">LLM-Driven Causal Discovery via Harmonized Prior</a></div>
+                        <div class="pub-title-cn">基于协调先验的大语言模型驱动因果发现</div>
+                        <div class="pub-authors">Taiyu Ban, Lyuzhou Chen, <b>Derui Lyu</b>, Xiangyu Wang, Qinrui Zhu
+                            &amp;
+                            Huanhuan Chen</div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">TKDE</span>:
+                            <span class="venue-full">IEEE Transactions on Knowledge and Data Engineering</span>
+                            <span class="badge-chip tier-a">CCF-A</span>
+                            <span class="badge-chip tier-a">IF 10.4</span>
+                            <span class="badge-chip tier-a">JCR Q1</span>
+                            <span class="badge-chip tier-a">CAS Q1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://doi.org/10.1109/TPAMI.2025.3594755" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/TPAMI25-PriorErrors.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://doi.org/10.1109/TPAMI.2025.3594755"
+                                target="_blank">Mitigating Prior Errors in Causal Structure Learning: A Resilient
+                                Approach via Bayesian Networks</a></div>
+                        <div class="pub-title-cn">缓解因果结构学习中的先验错误：一种基于贝叶斯网络的鲁棒方法</div>
+                        <div class="pub-authors">Lyuzhou Chen, Taiyu Ban, Xiangyu Wang, <b>Derui Lyu</b> &amp; Huanhuan
+                            Chen
+                        </div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">TPAMI</span>:
+                            <span class="venue-full">IEEE Transactions on Pattern Analysis and Machine
+                                Intelligence</span>
+                            <span class="badge-chip tier-a">CCF-A</span>
+                            <span class="badge-chip tier-a">IF 18.6</span>
+                            <span class="badge-chip tier-a">JCR Q1</span>
+                            <span class="badge-chip tier-a">CAS Q1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://doi.org/10.1109/TKDE.2025.3537832" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/TKDE25-LSCD.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://doi.org/10.1109/TKDE.2025.3537832"
+                                target="_blank">Large-Scale Hierarchical Causal Discovery via Weak Prior Knowledge</a>
+                        </div>
+                        <div class="pub-title-cn">基于弱先验知识的大规模层次化因果发现</div>
+                        <div class="pub-authors">Xiangyu Wang, Taiyu Ban, Lyuzhou Chen, <b>Derui Lyu</b>, Qinrui Zhu
+                            &amp;
+                            Huanhuan Chen</div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">TKDE</span>:
+                            <span class="venue-full">IEEE Transactions on Knowledge and Data Engineering</span>
+                            <span class="badge-chip tier-a">CCF-A</span>
+                            <span class="badge-chip tier-a">IF 10.4</span>
+                            <span class="badge-chip tier-a">JCR Q1</span>
+                            <span class="badge-chip tier-a">CAS Q1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://neurips.cc/virtual/2025/poster/119548" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/NeurIPS25-PGAP.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://neurips.cc/virtual/2025/poster/119548"
+                                target="_blank">Pattern-Guided Adaptive Prior for Structure Learning</a></div>
+                        <div class="pub-title-cn">面向结构学习的模式引导自适应先验</div>
+                        <div class="pub-authors">Lyuzhou Chen, Yijia Sun, Yanze Gao, Xiangyu Wang, <b>Derui Lyu</b>,
+                            Taiyu Ban, Xin Wang, Xiren Zhou &amp; Huanhuan Chen</div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">NeurIPS'25</span>:
+                            <span class="venue-full">Advances in Neural Information Processing Systems</span>
+                            <span class="badge-chip tier-a">CCF-A</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://proceedings.mlr.press/v267/ban25a.html" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/ICML25-DSLAC.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://proceedings.mlr.press/v267/ban25a.html"
+                                target="_blank">Differentiable Structure Learning with Ancestral Constraints</a></div>
+                        <div class="pub-title-cn">基于祖先约束的可微结构学习</div>
+                        <div class="pub-authors">Taiyu Ban, Changxin Rong, Xiangyu Wang, Lyuzhou Chen, Xin Wang,
+                            <b>Derui Lyu</b>, Qinrui Zhu &amp; Huanhuan Chen
+                        </div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">ICML'25</span>:
+                            <span class="venue-full">International Conference on Machine Learning</span>
+                            <span class="badge-chip tier-a">CCF-A</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://proceedings.mlr.press/v258/chen25g" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/AISTATS25-ECA.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://proceedings.mlr.press/v258/chen25g"
+                                target="_blank">Continuous Structure Constraint Integration for Robust Causal
+                                Discovery</a></div>
+                        <div class="pub-title-cn">面向鲁棒因果发现的连续结构约束集成</div>
+                        <div class="pub-authors">Lyuzhou Chen, Taiyu Ban, <b>Derui Lyu</b>, Yijia Sun, Kangtao Hu,
+                            Xiangyu Wang &amp; Huanhuan Chen</div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">AISTATS'25</span>:
+                            <span class="venue-full">International Conference on Artificial Intelligence and
+                                Statistics</span>
+                            <span class="badge-chip tier-c">CCF-C</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://doi.org/10.1016/j.knosys.2025.114527" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/KBS25-GNNLLM.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://doi.org/10.1016/j.knosys.2025.114527"
+                                target="_blank">Uncovering Novel Scientific Insights with a Synergistic GNN-LLM
+                                Framework</a></div>
+                        <div class="pub-title-cn">基于协同 GNN-LLM 框架发现新的科学洞见</div>
+                        <div class="pub-authors">Qingqing Wang, <b>Derui Lyu</b> &amp; Qiuju Chen</div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">KBS</span>:
+                            <span class="venue-full">Knowledge-Based Systems</span>
+                            <span class="badge-chip tier-c">CCF-C</span>
+                            <span class="badge-chip tier-a">JCR Q1</span>
+                            <span class="badge-chip tier-a">CAS Q1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://doi.org/10.1109/TAI.2025.3560927" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/TAI25-LLMCD.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://doi.org/10.1109/TAI.2025.3560927"
+                                target="_blank">Integrating Large Language Model for Improved Causal Discovery</a></div>
+                        <div class="pub-title-cn">融合大语言模型以改进因果发现</div>
+                        <div class="pub-authors">Taiyu Ban, Lyuzhou Chen, <b>Derui Lyu</b>, Xiangyu Wang, Qinrui Zhu,
+                            Qiang Tu &amp; Huanhuan Chen</div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">TAI</span>:
+                            <span class="venue-full">IEEE Transactions on Artificial Intelligence</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://doi.org/10.1109/TETCI.2025.3540429" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/TETCI25-KGCD.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://doi.org/10.1109/TETCI.2025.3540429"
+                                target="_blank">Harnessing the Power of Knowledge Graphs to Improve Causal Discovery</a>
+                        </div>
+                        <div class="pub-title-cn">利用知识图谱提升因果发现</div>
+                        <div class="pub-authors">Taiyu Ban, Xiangyu Wang, Lyuzhou Chen, <b>Derui Lyu</b>, Xi Fan &amp;
+                            Huanhuan Chen</div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">TETCI</span>:
+                            <span class="venue-full">IEEE Transactions on Emerging Topics in Computational
+                                Intelligence</span>
+                            <span class="badge-chip tier-b">IF 6.5</span>
+                            <span class="badge-chip tier-a">JCR Q2</span>
+                            <span class="badge-chip tier-b">CAS Q2</span>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="pub-year-heading">2024</h4>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://doi.org/10.1109/TGRS.2024.3446029" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/TGRS24-MSLGPR.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://doi.org/10.1109/TGRS.2024.3446029"
+                                target="_blank">Leveraging Multi-Source Label Learning for Underground Object
+                                Recognition</a></div>
+                        <div class="pub-title-cn">基于多源标记学习的地下目标识别</div>
+                        <div class="pub-authors"><b>Derui Lyu</b>, Taiyu Ban, Lyuzhou Chen, Xiangyu Wang, Qinrui Zhu,
+                            Xiren Zhou &amp; Huanhuan Chen</div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">TGRS</span>:
+                            <span class="venue-full">IEEE Transactions on Geoscience and Remote Sensing</span>
+                            <span class="badge-chip tier-b">CCF-B</span>
+                            <span class="badge-chip tier-b">IF 8.6</span>
+                            <span class="badge-chip tier-a">JCR Q1</span>
+                            <span class="badge-chip tier-a">CAS Q1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action"
+                            href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/d51cd79a85833b022841f7a2383b32d3-Abstract-Conference.html"
+                            target="_blank"><i class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/NeurIPS24-DSLPO.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a
+                                href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/d51cd79a85833b022841f7a2383b32d3-Abstract-Conference.html"
+                                target="_blank">Differentiable Structure Learning with Partial Orders</a></div>
+                        <div class="pub-title-cn">基于偏序约束的可微结构学习</div>
+                        <div class="pub-authors">Taiyu Ban, Lyuzhou Chen, Xiangyu Wang, Xin Wang, <b>Derui Lyu</b> &amp;
+                            Huanhuan Chen</div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">NeurIPS'24</span>:
+                            <span class="venue-full">Advances in Neural Information Processing Systems</span>
+                            <span class="badge-chip tier-a">CCF-A</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://doi.org/10.1109/ijcnn60899.2024.10651158" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/IJCNN24-LLMEval.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://doi.org/10.1109/ijcnn60899.2024.10651158"
+                                target="_blank">Multi-Model Consistency for LLMs' Evaluation</a></div>
+                        <div class="pub-title-cn">面向大语言模型评估的多模型一致性</div>
+                        <div class="pub-authors">Qinrui Zhu, <b>Derui Lyu</b>, Xi Fan, Xiangyu Wang, Qiang Tu, Yibing
+                            Zhan &amp; Huanhuan Chen</div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">IJCNN'24</span>:
+                            <span class="venue-full">International Joint Conference on Neural Networks</span>
+                            <span class="badge-chip tier-c">CCF-C</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://proceedings.mlr.press/v260/fan25a" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/ACML24-LLMMHC.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://proceedings.mlr.press/v260/fan25a"
+                                target="_blank">Constructing a Knowledge-Guided Mental Health Chatbot with LLMs</a>
+                        </div>
+                        <div class="pub-title-cn">基于大语言模型构建知识引导的心理健康聊天机器人</div>
+                        <div class="pub-authors">Xi Fan, Lishan Yang, Xiangyu Wang, <b>Derui Lyu</b> &amp; Huanhuan Chen
+                        </div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">ACML'24</span>:
+                            <span class="venue-full">Asian Conference on Machine Learning</span>
+                            <span class="badge-chip tier-c">CCF-C</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://doi.org/10.1109/TNNLS.2022.3202244" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/TNNLS24-KVData.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://doi.org/10.1109/TNNLS.2022.3202244"
+                                target="_blank">Knowledge Verification from Data</a></div>
+                        <div class="pub-title-cn">基于数据的知识验证</div>
+                        <div class="pub-authors">Xiangyu Wang, Taiyu Ban, Lyuzhou Chen, Xingyu Wu, <b>Derui Lyu</b>
+                            &amp;
+                            Huanhuan Chen</div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">TNNLS</span>:
+                            <span class="venue-full">IEEE Transactions on Neural Networks and Learning Systems</span>
+                            <span class="badge-chip tier-b">CCF-B</span>
+                            <span class="badge-chip tier-b">IF 8.9</span>
+                            <span class="badge-chip tier-a">JCR Q1</span>
+                            <span class="badge-chip tier-a">CAS Q1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://doi.org/10.1109/TNNLS.2022.3184498" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/TNNLS24-HNC.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://doi.org/10.1109/TNNLS.2022.3184498"
+                                target="_blank">Research Ideas Discovery via Hierarchical Negative Correlation</a></div>
+                        <div class="pub-title-cn">基于层次化负相关的科研想法发现</div>
+                        <div class="pub-authors">Lyuzhou Chen, Xiangyu Wang, Taiyu Ban, Muhammad Usman, Shikang Liu,
+                            <b>Derui Lyu</b> &amp; Huanhuan Chen
+                        </div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">TNNLS</span>:
+                            <span class="venue-full">IEEE Transactions on Neural Networks and Learning Systems</span>
+                            <span class="badge-chip tier-b">CCF-B</span>
+                            <span class="badge-chip tier-b">IF 8.9</span>
+                            <span class="badge-chip tier-a">JCR Q1</span>
+                            <span class="badge-chip tier-a">CAS Q1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://doi.org/10.1109/TSC.2023.3337873" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/TSC24-KGBC.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://doi.org/10.1109/TSC.2023.3337873"
+                                target="_blank">Decentralised Knowledge Graph Evolution via Blockchain</a></div>
+                        <div class="pub-title-cn">基于区块链的去中心化知识图谱演化</div>
+                        <div class="pub-authors">Xiangyu Wang, Taiyu Ban, Lyuzhou Chen, Muhammad Usman, Yifeng Guan,
+                            <b>Derui Lyu</b>, Jian Cheng &amp; Huanhuan Chen
+                        </div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">TSC</span>:
+                            <span class="venue-full">IEEE Transactions on Services Computing</span>
+                            <span class="badge-chip tier-a">CCF-A</span>
+                            <span class="badge-chip tier-b">IF 5.8</span>
+                            <span class="badge-chip tier-a">JCR Q1</span>
+                            <span class="badge-chip tier-b">CAS Q2</span>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="pub-year-heading">2021-2023</h4>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://doi.org/10.1109/TGRS.2023.3241402" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/TGRS23-MARS.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://doi.org/10.1109/TGRS.2023.3241402"
+                                target="_blank">Accurate Label Refinement From Multiannotator of Remote Sensing Data</a>
+                        </div>
+                        <div class="pub-title-cn">面向遥感多标注者数据的精确标签优化</div>
+                        <div class="pub-authors">Xiangyu Wang, Lyuzhou Chen, Taiyu Ban, <b>Derui Lyu</b>, Yifeng Guan,
+                            Xingyu Wu, Xiren Zhou &amp; Huanhuan Chen</div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">TGRS</span>:
+                            <span class="venue-full">IEEE Transactions on Geoscience and Remote Sensing</span>
+                            <span class="badge-chip tier-b">CCF-B</span>
+                            <span class="badge-chip tier-b">IF 8.6</span>
+                            <span class="badge-chip tier-a">JCR Q1</span>
+                            <span class="badge-chip tier-a">CAS Q1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-actions">
+                        <a class="btn-action" href="https://doi.org/10.1109/JSTARS.2020.3041534" target="_blank"><i
+                                class="fa-solid fa-link"></i> 链接</a>
+                        <a class="btn-action pdf" href="pdf/JSTARS21-DFGCN.pdf" target="_blank"><i
+                                class="fa-regular fa-file-pdf"></i> PDF</a>
+                    </div>
+                    <div class="pub-details">
+                        <div class="pub-title"><a href="https://doi.org/10.1109/JSTARS.2020.3041534"
+                                target="_blank">Deep Fuzzy Graph Convolutional Networks for PolSAR Imagery Pixelwise
+                                Classification</a></div>
+                        <div class="pub-title-cn">用于 PolSAR 影像逐像素分类的深度模糊图卷积网络</div>
+                        <div class="pub-authors">Hongying Liu, Tianwen Zhu, Fanhua Shang, Yuanyuan Liu, <b>Derui Lv</b>,
+                            Shuyuan Yang</div>
+                        <div class="pub-meta">
+                            <span class="venue-abbr">JSTARS</span>:
+                            <span class="venue-full">IEEE Journal of Selected Topics in Applied Earth Observations and
+                                Remote Sensing</span>
+                            <span class="badge-chip tier-b">IF 5.3</span>
+                            <span class="badge-chip tier-a">JCR Q1</span>
+                            <span class="badge-chip tier-b">CAS Q2</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="services">
+                <div class="section-title"><i class="fa-solid fa-users-gear"></i> 学术服务</div>
+                <h5 class="mt-4 mb-3 text-secondary">会议程序委员会委员 (PC Member)</h5>
+                <div class="service-grid">
+                    <div class="service-item">
+                        <a href="https://2026.ijcai.org/" target="_blank">IJCAI—ECAI 2026</a>
+                        <span class="service-badge" style="background:#fee2e2; color:#991b1b;">CCF-A</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://aaai.org/conference/aaai/aaai-26/" target="_blank">AAAI 2026</a>
+                        <span class="service-badge" style="background:#fee2e2; color:#991b1b;">CCF-A</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://2025.ijcai.org/" target="_blank">IJCAI 2025</a>
+                        <span class="service-badge" style="background:#fee2e2; color:#991b1b;">CCF-A</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://ecai2025.org/" target="_blank">ECAI 2025</a>
+                        <span class="service-badge" style="background:#ffedd5; color:#9a3412;">CCF-B</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://2026.ieeeicme.org/" target="_blank">ICME 2026</a>
+                        <span class="service-badge" style="background:#ffedd5; color:#9a3412;">CCF-B</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://pakdd2026.org/" target="_blank">PAKDD 2026</a>
+                        <span class="service-badge" style="background:#f1f5f9; color:#64748b;">CCF-C</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://2025.ijcnn.org/" target="_blank">IJCNN 2025</a>
+                        <span class="service-badge" style="background:#f1f5f9; color:#64748b;">CCF-C</span>
+                    </div>
+                </div>
+                <h5 class="mt-4 mb-3 text-secondary">期刊受邀审稿人 (Reviewer)</h5>
+                <div class="service-grid">
+                    <div class="service-item">
+                        <a href="https://www.sciencedirect.com/journal/artificial-intelligence"
+                            target="_blank">Artificial Intelligence</a>
+                        <span class="service-badge" style="background:#fee2e2; color:#991b1b;">CCF-A</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://www.sciencedirect.com/journal/information-fusion" target="_blank">Information
+                            Fusion</a>
+                        <span class="service-badge" style="background:#fef9c3; color:#854d0e;">IF 15.5</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://www.sciencedirect.com/journal/pattern-recognition" target="_blank">Pattern
+                            Recognition</a>
+                        <span class="service-badge" style="background:#dbeafe; color:#1e40af;">IF 7.5</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://www.sciencedirect.com/journal/expert-systems-with-applications"
+                            target="_blank">Expert Systems with Applications</a>
+                        <span class="service-badge" style="background:#dbeafe; color:#1e40af;">IF 7.5</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence"
+                            target="_blank">Engineering Application of AI</a>
+                        <span class="service-badge" style="background:#dbeafe; color:#1e40af;">IF 7.5</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://www.sciencedirect.com/journal/knowledge-based-systems"
+                            target="_blank">Knowledge-Based Systems</a>
+                        <span class="service-badge" style="background:#dbeafe; color:#1e40af;">IF 7.2</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://www.sciencedirect.com/journal/applied-soft-computing" target="_blank">Applied
+                            Soft Computing</a>
+                        <span class="service-badge" style="background:#dbeafe; color:#1e40af;">IF 7.2</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine"
+                            target="_blank">Artificial Intelligence in Medicine</a>
+                        <span class="service-badge" style="background:#e0f2fe; color:#0369a1;">IF 6.2</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://www.sciencedirect.com/journal/neural-networks" target="_blank">Neural
+                            Networks</a>
+                        <span class="service-badge" style="background:#e0f2fe; color:#0369a1;">IF 6.0</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://www.sciencedirect.com/journal/computers-in-human-behavior"
+                            target="_blank">Computers in Human Behavior</a>
+                        <span class="service-badge" style="background:#e0f2fe; color:#0369a1;">IF 5.8</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://www.sciencedirect.com/journal/neurocomputing"
+                            target="_blank">Neurocomputing</a>
+                        <span class="service-badge" style="background:#e0f2fe; color:#0369a1;">IF 5.5</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://www.sciencedirect.com/journal/psychiatry-research" target="_blank">Psychiatry
+                            Research</a>
+                        <span class="service-badge" style="background:#f1f5f9; color:#64748b;">IF 3.9</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://link.springer.com/journal/10489" target="_blank">Applied Intelligence</a>
+                        <span class="service-badge" style="background:#f1f5f9; color:#64748b;">IF 3.4</span>
+                    </div>
+                    <div class="service-item">
+                        <a href="https://link.springer.com/journal/12293" target="_blank">Memetic Computing</a>
+                        <span class="service-badge" style="background:#f1f5f9; color:#64748b;">IF 3.3</span>
+                    </div>
+                </div>
+            </section>
+            <section class="section-title" id="internship"><i class="fa-solid fa-briefcase"></i> 实习经历</section>
+            <div class="mb-5 d-flex align-items-start gap-3">
+                <img alt="iFLYTEK" src="image/iflytek.png"
+                    style="width: 60px; height: auto; border-radius: 4px; border:1px solid #eee;" />
+                <div>
+                    <div class="timeline-title" style="margin-top:0;">核心技术研究员 (实习)</div>
+                    <div class="text-muted small">2020 - 2021 | AI 研究院, <a href="https://www.iflytek.com/">科大讯飞</a>
+                    </div>
+                    <p class="small text-secondary mt-1">核心研发平台，安徽合肥</p>
+                </div>
+            </div>
+            <footer class="mt-5 pt-4 border-top text-center text-muted small">
+                <p>© 2025 吕德锐 (Derui Lyu). 保留所有权利.</p>
+            </footer>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

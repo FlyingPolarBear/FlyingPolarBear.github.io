@@ -1,0 +1,682 @@
+﻿领域,类型,等级,序号,简称,全称,出版社/组织,网址,PDF页码
+计算机体系结构/并行与分布计算/存储系统,期刊,A,1,TOCS,ACM Transactions on Computer Systems,ACM,https://dblp.org/db/journals/tocs/,2
+计算机体系结构/并行与分布计算/存储系统,期刊,A,2,TOS,ACM Transactions on Storage,ACM,https://dblp.org/db/journals/tos/,2
+计算机体系结构/并行与分布计算/存储系统,期刊,A,3,TCAD,IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,IEEE,https://dblp.org/db/journals/tcad/,2
+计算机体系结构/并行与分布计算/存储系统,期刊,A,4,TC,IEEE Transactions on Computers,IEEE,https://dblp.org/db/journals/tc/index.html,2
+计算机体系结构/并行与分布计算/存储系统,期刊,A,5,TPDS,IEEE Transactions on Parallel and Distributed Systems,IEEE,https://dblp.org/db/journals/tpds/,2
+计算机体系结构/并行与分布计算/存储系统,期刊,A,6,TACO,ACM Transactions on Architecture and Code Optimization,ACM,https://dblp.org/db/journals/taco/,2
+计算机体系结构/并行与分布计算/存储系统,期刊,B,1,TAAS,ACM Transactions on Autonomous and Adaptive Systems,ACM,https://dblp.org/db/journals/taas/,3
+计算机体系结构/并行与分布计算/存储系统,期刊,B,2,TODAES,ACM Transactions on Design Automation of Electronic Systems,ACM,https://dblp.org/db/journals/todaes/,3
+计算机体系结构/并行与分布计算/存储系统,期刊,B,3,TECS,ACM Transactions on Embedded Computing Systems,ACM,https://dblp.org/db/journals/tecs/,3
+计算机体系结构/并行与分布计算/存储系统,期刊,B,4,TRETS,ACM Transactions on Reconfigurable Technology and Systems,ACM,https://dblp.org/db/journals/trets/,3
+计算机体系结构/并行与分布计算/存储系统,期刊,B,5,TVLSI,IEEE Transactions on Very Large Scale Integration (VLSI) Systems,IEEE,https://dblp.org/db/journals/tvlsi/,3
+计算机体系结构/并行与分布计算/存储系统,期刊,B,6,JPDC,Journal of Parallel and Distributed Computing,Elsevier,https://dblp.org/db/journals/jpdc/,3
+计算机体系结构/并行与分布计算/存储系统,期刊,B,7,JSA,Journal of Systems Architecture: Embedded Software Design,Elsevier,https://dblp.org/db/journals/jsa/,3
+计算机体系结构/并行与分布计算/存储系统,期刊,B,8,,Parallel Computing,Elsevier,https://dblp.org/db/journals/pc/index.html,3
+计算机体系结构/并行与分布计算/存储系统,期刊,B,9,,Performance Evaluation: An International Journal,Elsevier,https://dblp.org/db/journals/pe/index.html,3
+计算机体系结构/并行与分布计算/存储系统,期刊,B,10,TCC,IEEE Transactions on Cloud Computing,IEEE,https://dblp.org/db/journals/tcc/,3
+计算机体系结构/并行与分布计算/存储系统,期刊,C,1,JETC,ACM Journal on Emerging Technologies in Computing Systems,ACM,https://dblp.org/db/journals/jetc/,4
+计算机体系结构/并行与分布计算/存储系统,期刊,C,2,,Concurrency and Computation: Practice and Experience,Wiley,https://dblp.org/db/journals/concurrency/,4
+计算机体系结构/并行与分布计算/存储系统,期刊,C,3,DC,Distributed Computing,Springer,https://dblp.org/db/journals/dc/,4
+计算机体系结构/并行与分布计算/存储系统,期刊,C,4,FGCS,Future Generation Computer Systems,Elsevier,https://dblp.org/db/journals/fgcs,4
+计算机体系结构/并行与分布计算/存储系统,期刊,C,5,Integration,"Integration, the VLSI Journal",Elsevier,https://dblp.org/db/journals/integration,4
+计算机体系结构/并行与分布计算/存储系统,期刊,C,6,JETTA,Journal of Electronic Testing-Theory and Applications,Springer,https://dblp.org/db/journals/et/index.html,4
+计算机体系结构/并行与分布计算/存储系统,期刊,C,7,JGC,Journal of Grid computing,Springer,https://dblp.org/db/journals/grid/,4
+计算机体系结构/并行与分布计算/存储系统,期刊,C,8,RTS,Real-Time Systems,Springer,https://dblp.org/db/journals/rts/,4
+计算机体系结构/并行与分布计算/存储系统,期刊,C,9,TJSC,The Journal of Supercomputing,Springer,https://dblp.org/db/journals/tjs/,4
+计算机体系结构/并行与分布计算/存储系统,期刊,C,10,TCASI,IEEE Transactions on Circuits and Systems I: Regular Papers,IEEE,https://dblp.org/db/journals/tcasI/index.html,4
+计算机体系结构/并行与分布计算/存储系统,期刊,C,11,CCF-THPC,CCF Transactions on High Performance Computing,CCF,https://dblp.org/db/journals/ccfthpc/index.html,4
+计算机体系结构/并行与分布计算/存储系统,期刊,C,12,TSUSC,IEEE Transactions on Sustainable Computing,IEEE,https://dblp.org/db/journals/tsusc/index.html,4
+计算机体系结构/并行与分布计算/存储系统,会议,A,1,PPoPP,ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming,ACM,https://dblp.org/db/conf/ppopp/,5
+计算机体系结构/并行与分布计算/存储系统,会议,A,2,FAST,USENIX Conference on File and Storage Technologies,USENIX,https://dblp.org/db/conf/fast/,5
+计算机体系结构/并行与分布计算/存储系统,会议,A,3,DAC,Design Automation Conference,ACM,https://dblp.org/db/conf/dac/,5
+计算机体系结构/并行与分布计算/存储系统,会议,A,4,HPCA,IEEE International Symposium on High Performance Computer Architecture,IEEE,https://dblp.org/db/conf/hpca/,5
+计算机体系结构/并行与分布计算/存储系统,会议,A,5,MICRO,IEEE/ACM International Symposium on Microarchitecture,IEEE/ ACM,https://dblp.org/db/conf/micro/index.html,5
+计算机体系结构/并行与分布计算/存储系统,会议,A,6,SC,"International Conference for High Performance Computing, Networking, Storage, and Analysis",IEEE,https://dblp.org/db/conf/sc/,5
+计算机体系结构/并行与分布计算/存储系统,会议,A,7,ASPLOS,International Conference on Architectural Support for Programming Languages and Operating Systems,ACM,https://dblp.org/db/conf/asplos/,5
+计算机体系结构/并行与分布计算/存储系统,会议,A,8,ISCA,International Symposium on Computer Architecture,IEEE/ ACM,https://dblp.org/db/conf/isca/,5
+计算机体系结构/并行与分布计算/存储系统,会议,A,9,ACM SIGOPS ATC（原 USENIX ATC）,ACM SIGOPS Annual Technical Conference,ACM,https://dblp.org/db/conf/usenix/index.html,5
+计算机体系结构/并行与分布计算/存储系统,会议,A,10,EuroSys,European Conference on Computer Systems,ACM,https://dblp.org/db/conf/eurosys/,5
+计算机体系结构/并行与分布计算/存储系统,会议,A,11,HPDC,The International ACM Symposium on High-Performance Parallel and Distributed Computing,IEEE,https://dblp.org/db/conf/hpdc/,5
+计算机体系结构/并行与分布计算/存储系统,会议,B,1,SoCC,ACM Symposium on Cloud Computing,ACM,https://dblp.org/db/conf/cloud/,6
+计算机体系结构/并行与分布计算/存储系统,会议,B,2,SPAA,ACM Symposium on Parallelism in Algorithms and Architectures,ACM,https://dblp.org/db/conf/spaa/,6
+计算机体系结构/并行与分布计算/存储系统,会议,B,3,PODC,ACM Symposium on Principles of Distributed Computing,ACM,https://dblp.org/db/conf/podc/,6
+计算机体系结构/并行与分布计算/存储系统,会议,B,4,FPGA,ACM/SIGDA International Symposium on Field-Programmable Gate Arrays,ACM,https://dblp.org/db/conf/fpga/,6
+计算机体系结构/并行与分布计算/存储系统,会议,B,5,CGO,The International Symposium on Code Generation and Optimization,IEEE/ ACM,https://dblp.org/db/conf/cgo/,6
+计算机体系结构/并行与分布计算/存储系统,会议,B,6,DATE,"Design, Automation & Test in Europe",IEEE/ ACM,https://dblp.org/db/conf/date/,6
+计算机体系结构/并行与分布计算/存储系统,会议,B,7,HOT CHIPS,Hot Chips: A Symposium on High Performance Chips,IEEE,https://dblp.org/db/conf/hotchips/index.html,6
+计算机体系结构/并行与分布计算/存储系统,会议,B,8,CLUSTER,IEEE International Conference on Cluster Computing,IEEE,https://dblp.org/db/conf/cluster/,6
+计算机体系结构/并行与分布计算/存储系统,会议,B,9,ICCD,International Conference on Computer Design,IEEE,https://dblp.org/db/conf/iccd/,6
+计算机体系结构/并行与分布计算/存储系统,会议,B,10,ICCAD,International Conference on Computer-Aided Design,IEEE/ ACM,https://dblp.org/db/conf/iccad/,6
+计算机体系结构/并行与分布计算/存储系统,会议,B,11,ICDCS,IEEE International Conference on Distributed Computing Systems,IEEE,https://dblp.org/db/conf/icdcs/,6
+计算机体系结构/并行与分布计算/存储系统,会议,B,12,CODES+ISSS,International Conference on Hardware/Software Co-design and System Synthesis,IEEE/ ACM,https://dblp.org/db/conf/codesisss/index.html,6
+计算机体系结构/并行与分布计算/存储系统,会议,B,13,HiPEAC,International Conference on High Performance and Embedded Architectures and Compilers,ACM,https://dblp.org/db/conf/hipeac/,6
+计算机体系结构/并行与分布计算/存储系统,会议,B,14,SIGMETRICS,International Conference on Measurement and Modeling of Computer Systems,ACM,https://dblp.org/db/conf/sigmetrics/,7
+计算机体系结构/并行与分布计算/存储系统,会议,B,15,PACT,International Conference on Parallel Architectures and Compilation Techniques,IEEE/ ACM,https://dblp.org/db/conf/IEEEpact/,7
+计算机体系结构/并行与分布计算/存储系统,会议,B,16,ICPP,International Conference on Parallel Processing,ACM,https://dblp.org/db/conf/icpp/,7
+计算机体系结构/并行与分布计算/存储系统,会议,B,17,ICS,International Conference on Supercomputing,ACM,https://dblp.org/db/conf/ics/,7
+计算机体系结构/并行与分布计算/存储系统,会议,B,18,VEE,International Conference on Virtual Execution Environments,ACM,https://dblp.org/db/conf/vee/,7
+计算机体系结构/并行与分布计算/存储系统,会议,B,19,IPDPS,IEEE International Parallel & Distributed Processing Symposium,IEEE,https://dblp.org/db/conf/ipps/,7
+计算机体系结构/并行与分布计算/存储系统,会议,B,20,Performance,"International Symposium on Computer Performance, Modeling, Measurements and Evaluation",ACM,https://dblp.org/db/conf/performance/,7
+计算机体系结构/并行与分布计算/存储系统,会议,B,21,ITC,International Test Conference,IEEE,https://dblp.org/db/conf/itc/,7
+计算机体系结构/并行与分布计算/存储系统,会议,B,22,LISA,Large Installation System Administration Conference,USENIX,https://dblp.org/db/conf/lisa/,7
+计算机体系结构/并行与分布计算/存储系统,会议,B,23,MSST,Mass Storage Systems and Technologies,IEEE,https://dblp.org/db/conf/mss/,7
+计算机体系结构/并行与分布计算/存储系统,会议,B,24,RTAS,IEEE Real-Time and Embedded Technology and Applications Symposium,IEEE,https://dblp.org/db/conf/rtas/,7
+计算机体系结构/并行与分布计算/存储系统,会议,B,25,Euro-Par,European Conference on Parallel and Distributed Computing Springer,Springer,https://dblp.org/db/conf/europar/,7
+计算机体系结构/并行与分布计算/存储系统,会议,B,26,ISCAS,IEEE International Symposium on Circuits and Systems,IEEE,https://dblp.org/db/conf/iscas/,7
+计算机体系结构/并行与分布计算/存储系统,会议,C,1,CF,ACM International Conference on Computing Frontiers,ACM,https://dblp.org/db/conf/cf,8
+计算机体系结构/并行与分布计算/存储系统,会议,C,2,SYSTOR,ACM International Systems and Storage Conference,ACM,https://dblp.org/db/conf/systor/index.html,8
+计算机体系结构/并行与分布计算/存储系统,会议,C,3,NOCS,ACM/IEEE International Symposium on Networks-on-Chip,IEEE/ ACM,https://dblp.org/db/conf/nocs,8
+计算机体系结构/并行与分布计算/存储系统,会议,C,4,ASAP,"IEEE International Conference on Application-Specific Systems, Architectures, and Processors",IEEE,https://dblp.org/db/conf/asap,8
+计算机体系结构/并行与分布计算/存储系统,会议,C,5,ASP-DAC,Asia and South Pacific Design Automation Conference,IEEE/ ACM,https://dblp.org/db/conf/aspdac,8
+计算机体系结构/并行与分布计算/存储系统,会议,C,6,ETS,IEEE European Test Symposium,IEEE,https://dblp.org/db/conf/ets/,8
+计算机体系结构/并行与分布计算/存储系统,会议,C,7,FPL,International Conference on Field-Programmable Logic and Applications,IEEE,https://dblp.org/db/conf/fpl/,8
+计算机体系结构/并行与分布计算/存储系统,会议,C,8,FCCM,IEEE Symposium on Field-Programmable Custom Computing Machines,IEEE,https://dblp.org/db/conf/fccm/,8
+计算机体系结构/并行与分布计算/存储系统,会议,C,9,GLSVLSI,Great Lakes Symposium on VLSI,IEEE/ ACM,https://dblp.org/db/conf/glvlsi/,8
+计算机体系结构/并行与分布计算/存储系统,会议,C,10,ATS,IEEE Asian Test Symposium,IEEE,https://dblp.org/db/conf/ats/,8
+计算机体系结构/并行与分布计算/存储系统,会议,C,11,HPCC,IEEE International Conference on High Performance Computing and Communications,IEEE,https://dblp.org/db/conf/hpcc/,8
+计算机体系结构/并行与分布计算/存储系统,会议,C,12,HiPC,"IEEE International Conference on High Performance Computing, Data and Analytics",IEEE/ ACM,https://dblp.org/db/conf/hipc/index.html,8
+计算机体系结构/并行与分布计算/存储系统,会议,C,13,MASCOTS,"International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",IEEE,https://dblp.org/db/conf/mascots/,8
+计算机体系结构/并行与分布计算/存储系统,会议,C,14,ISPA,IEEE International Symposium on Parallel and Distributed Processing with Applications,IEEE,https://dblp.org/db/conf/ispa/,9
+计算机体系结构/并行与分布计算/存储系统,会议,C,15,CCGRID,"IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing",IEEE/ ACM,https://dblp.org/db/conf/ccgrid/,9
+计算机体系结构/并行与分布计算/存储系统,会议,C,16,NPC,IFIP International Conference on Network and Parallel Computing,Springer,https://dblp.org/db/conf/npc/,9
+计算机体系结构/并行与分布计算/存储系统,会议,C,17,ICA3PP,International Conference on Algorithms and Architectures for Parallel Processing,IEEE,https://dblp.org/db/conf/ica3pp/,9
+计算机体系结构/并行与分布计算/存储系统,会议,C,18,CASES,"International Conference on Compilers, Architectures, and Synthesis for Embedded Systems",ACM,https://dblp.org/db/conf/cases/index.html,9
+计算机体系结构/并行与分布计算/存储系统,会议,C,19,FPT,International Conference on Field-Programmable Technology,IEEE,https://dblp.org/db/conf/fpt/,9
+计算机体系结构/并行与分布计算/存储系统,会议,C,20,ICPADS,International Conference on Parallel and Distributed Systems,IEEE,https://dblp.org/db/conf/icpads/,9
+计算机体系结构/并行与分布计算/存储系统,会议,C,21,ISLPED,International Symposium on Low Power Electronics and Design,IEEE/ ACM,https://dblp.org/db/conf/islped/,9
+计算机体系结构/并行与分布计算/存储系统,会议,C,22,ISPD,International Symposium on Physical Design,ACM,https://dblp.org/db/conf/ispd/,9
+计算机体系结构/并行与分布计算/存储系统,会议,C,23,HOTI,IEEE Symposium on High-Performance Interconnects,IEEE,https://dblp.org/db/conf/hoti/,9
+计算机体系结构/并行与分布计算/存储系统,会议,C,24,VTS,IEEE VLSI Test Symposium,IEEE,https://dblp.org/db/conf/vts/,9
+计算机体系结构/并行与分布计算/存储系统,会议,C,25,ITC-Asia,International Test Conference in Asia,IEEE,https://dblp.org/db/conf/itc-asia/,9
+计算机体系结构/并行与分布计算/存储系统,会议,C,26,SEC,ACM/IEEE Symposium on Edge Computing,IEEE/ ACM,https://dblp.org/db/conf/ieeesec/index.html,9
+计算机体系结构/并行与分布计算/存储系统,会议,C,27,NAS,"International Conference on Networking, Architecture and Storages",IEEE,https://dblp.org/db/conf/nas/index.html,9
+计算机体系结构/并行与分布计算/存储系统,会议,C,28,HotStorage,HotStorage,USENIX Association,https://dblp.org/db/conf/hotstorage/index.html,9
+计算机体系结构/并行与分布计算/存储系统,会议,C,29,APPT,International Symposium on Advanced Parallel Processing Technology,Springer,https://dblp.org/db/conf/appt/index.html,9
+计算机体系结构/并行与分布计算/存储系统,会议,C,30,JCC,International Conference on JointCloud Computing,CCF&IEEE,,9
+计算机网络,期刊,A,1,JSAC,IEEE Journal on Selected Areas in Communications,IEEE,https://dblp.org/db/journals/jsac/,10
+计算机网络,期刊,A,2,TMC,IEEE Transactions on Mobile Computing,IEEE,https://dblp.org/db/journals/tmc/,10
+计算机网络,期刊,A,3,TON,IEEE Transactions on Networking（原 IEEE/ACM Transactions on Networking）,IEEE,https://dblp.org/db/journals/ton/,10
+计算机网络,期刊,B,1,TOIT,ACM Transactions on Internet Technology,ACM,https://dblp.org/db/journals/toit/,11
+计算机网络,期刊,B,2,TOMM,"ACM Transactions on Multimedia Computing, Communications and Applications",ACM,https://dblp.org/db/journals/tomccap/,11
+计算机网络,期刊,B,3,TOSN,ACM Transactions on Sensor Networks,ACM,https://dblp.org/db/journals/tosn/,11
+计算机网络,期刊,B,4,CN,Computer Networks,Elsevier,https://dblp.org/db/journals/cn/,11
+计算机网络,期刊,B,5,TCOM,IEEE Transactions on Communications,IEEE,https://dblp.org/db/journals/tcom/,11
+计算机网络,期刊,B,6,TWC,IEEE Transactions on Wireless Communications,IEEE,https://dblp.org/db/journals/twc/,11
+计算机网络,期刊,C,1,,Ad Hoc Networks,Elsevier,https://dblp.org/db/journals/adhoc/,12
+计算机网络,期刊,C,2,CC,Computer Communications,Elsevier,https://dblp.org/db/journals/comcom/,12
+计算机网络,期刊,C,3,TNSM,IEEE Transactions on Network and Service Management,IEEE,https://dblp.org/db/journals/tnsm/,12
+计算机网络,期刊,C,4,,IET Communications,IET,https://dblp.org/db/journals/iet-com/,12
+计算机网络,期刊,C,5,JNCA,Journal of Network and Computer Applications,Elsevier,https://dblp.org/db/journals/jnca/,12
+计算机网络,期刊,C,6,MONET,Mobile Networks and Applications,Springer,https://dblp.org/db/journals/monet/,12
+计算机网络,期刊,C,7,,Networks,Wiley,https://dblp.org/db/journals/networks/,12
+计算机网络,期刊,C,8,PPNA,Peer-to-Peer Networking and Applications,Springer,https://dblp.org/db/journals/ppna/,12
+计算机网络,期刊,C,9,WCMC,Wireless Communications and Mobile Computing,Wiley,https://dblp.org/db/journals/wicomm/,12
+计算机网络,期刊,C,10,,Wireless Networks,Springer,https://dblp.org/db/journals/winet/,12
+计算机网络,期刊,C,11,IOT,IEEE Internet of Things Journal,IEEE,https://dblp.org/db/journals/iotj/index.html,12
+计算机网络,期刊,C,12,TIOT,ACM Transactions on Internet of Things,ACM,https://dblp.org/db/journals/tiot/index.html,12
+计算机网络,会议,A,1,SIGCOMM,"ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",ACM,https://dblp.org/db/conf/sigcomm/index.html,13
+计算机网络,会议,A,2,MobiCom,ACM International Conference on Mobile Computing and Networking,ACM,https://dblp.org/db/conf/mobicom/,13
+计算机网络,会议,A,3,INFOCOM,IEEE International Conference on Computer Communications,IEEE,https://dblp.org/db/conf/infocom/,13
+计算机网络,会议,A,4,NSDI,Symposium on Network System Design and Implementation,USENIX,https://dblp.org/db/conf/nsdi/,13
+计算机网络,会议,B,1,SenSys,ACM Conference on Embedded Networked Sensor Systems,ACM,https://dblp.org/db/conf/sensys/,14
+计算机网络,会议,B,2,CoNEXT,ACM International Conference on Emerging Networking Experiments and Technologies,ACM,https://dblp.org/db/conf/conext/,14
+计算机网络,会议,B,3,SECON,"IEEE International Conference on Sensing, Communication, and Networking",IEEE,https://dblp.org/db/conf/secon/,14
+计算机网络,会议,B,4,IPSN,International Conference on Information Processing in Sensor Networks,IEEE/ ACM,https://dblp.org/db/conf/ipsn/,14
+计算机网络,会议,B,5,MobiSys,"ACM International Conference on Mobile Systems, Applications, and Services",ACM,https://dblp.org/db/conf/mobisys/,14
+计算机网络,会议,B,6,ICNP,IEEE International Conference on Network Protocols,IEEE,https://dblp.org/db/conf/icnp/,14
+计算机网络,会议,B,7,MobiHoc,"International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",IEEE/ ACM,https://dblp.org/db/conf/mobihoc/,14
+计算机网络,会议,B,8,NOSSDAV,International Workshop on Network and Operating System Support for Digital Audio and Video,ACM,https://dblp.org/db/conf/nossdav/,14
+计算机网络,会议,B,9,IWQoS,IEEE/ACM International Workshop on Quality of Service,IEEE,https://dblp.org/db/conf/iwqos/,14
+计算机网络,会议,B,10,IMC,ACM Internet Measurement Conference,ACM/ USENIX,https://dblp.org/db/conf/imc/,14
+计算机网络,会议,C,1,ANCS,ACM/IEEE Symposium on Architectures for Networking and Communication Systems,IEEE/ ACM,https://dblp.org/db/conf/ancs/,15
+计算机网络,会议,C,2,APNOMS,Asia-Pacific Network Operations and Management Symposium,IFIP/ IEEE,https://dblp.org/db/conf/apnoms/,15
+计算机网络,会议,C,3,FORTE,"International Conference on Formal Techniques for Distributed Objects, Components, and Systems",Springer,https://dblp.org/db/conf/forte/,15
+计算机网络,会议,C,4,LCN,IEEE Conference on Local Computer Networks,IEEE,https://dblp.org/db/conf/lcn/,15
+计算机网络,会议,C,5,GLOBECOM,IEEE Global Communications Conference,IEEE,https://dblp.org/db/conf/globecom/,15
+计算机网络,会议,C,6,ICC,IEEE International Conference on Communications,IEEE,https://dblp.org/db/conf/icc/,15
+计算机网络,会议,C,7,ICCCN,IEEE International Conference on Computer Communications and Networks,IEEE,https://dblp.org/db/conf/icccn/,15
+计算机网络,会议,C,8,MASS,IEEE International Conference on Mobile Adhoc and Sensor Systems,IEEE,https://dblp.org/db/conf/mass/index.html,15
+计算机网络,会议,C,9,P2P,IEEE International Conference on Peer-to-Peer Computing,IEEE,https://dblp.org/db/conf/p2p/,15
+计算机网络,会议,C,10,IPCCC,IEEE International Performance Computing and Communications Conference,IEEE,https://dblp.org/db/conf/ipccc/,15
+计算机网络,会议,C,11,WoWMoM,"IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks",IEEE,https://dblp.org/db/conf/wowmom/,15
+计算机网络,会议,C,12,ISCC,IEEE Symposium on Computers and Communications,IEEE,https://dblp.org/db/conf/iscc/,15
+计算机网络,会议,C,13,WCNC,IEEE Wireless Communications and Networking Conference,IEEE,https://dblp.org/db/conf/wcnc/,15
+计算机网络,会议,C,14,Networking,IFIP International Conferences on Networking,IFIP,https://dblp.org/db/conf/networking/index.html,16
+计算机网络,会议,C,15,IM,IFIP/IEEE International Symposium on Integrated Network Management,IFIP/ IEEE,https://dblp.org/db/conf/im/index.html,16
+计算机网络,会议,C,16,MSN,"International Conference on Mobility, Sensing and Networking",IEEE,https://dblp.org/db/conf/msn/,16
+计算机网络,会议,C,17,MSWiM,"International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",ACM,https://dblp.org/db/conf/mswim/,16
+计算机网络,会议,C,18,WASA,The International Conference on Wireless Artificial Intelligent Computing Systems and Applications,Springer,https://dblp.org/db/conf/wasa/,16
+计算机网络,会议,C,19,HotNets,ACM The Workshop on Hot Topics in Networks,ACM,https://dblp.org/db/conf/hotnets/,16
+计算机网络,会议,C,20,APNet,Asia-Pacific Workshop on Networking,ACM,https://dblp.org/db/conf/apnet/index.html,16
+网络与信息安全,期刊,A,1,TDSC,IEEE Transactions on Dependable and Secure Computing,IEEE,https://dblp.org/db/journals/tdsc/,17
+网络与信息安全,期刊,A,2,TIFS,IEEE Transactions on Information Forensics and Security,IEEE,https://dblp.org/db/journals/tifs/,17
+网络与信息安全,期刊,A,3,,Journal of Cryptology,Springer,https://dblp.org/db/journals/joc/,17
+网络与信息安全,期刊,B,1,TOPS,ACM Transactions on Privacy and Security,ACM,https://dblp.org/db/journals/tissec/index.html,18
+网络与信息安全,期刊,B,2,,Computers & Security,Elsevier,https://dblp.org/db/journals/compsec/,18
+网络与信息安全,期刊,B,3,,"Designs, Codes and Cryptography",Springer,https://dblp.org/db/journals/dcc/,18
+网络与信息安全,期刊,B,4,JCS,Journal of Computer Security,IOS Press,https://dblp.org/db/journals/jcs/,18
+网络与信息安全,期刊,B,5,Cybersecurity,Cybersecurity,Springer（原中国科学院信息工程研究所/科学出版社）,https://dblp.org/db/journals/cybersec/index.html,18
+网络与信息安全,期刊,C,1,CLSR,Computer Law & Security Review,Elsevier,https://dblp.org/db/journals/clsr/index.html,19
+网络与信息安全,期刊,C,2,,EURASIP Journal on Information Security,Springer,https://dblp.org/db/journals/ejisec/,19
+网络与信息安全,期刊,C,3,,IET Information Security,IET,https://dblp.org/db/journals/iet-ifs/,19
+网络与信息安全,期刊,C,4,IMCS,Information and Computer Security,Emerald,https://dblp.org/db/journals/imcs/,19
+网络与信息安全,期刊,C,5,IJICS,International Journal of Information and Computer Security,Inderscience,https://dblp.org/db/journals/ijics/,19
+网络与信息安全,期刊,C,6,IJISP,International Journal of Information Security and Privacy,IGI Global,https://dblp.org/db/journals/ijisp/,19
+网络与信息安全,期刊,C,7,JISA,Journal of Information Security and Applications,Elsevier,https://dblp.org/db/journals/istr/,19
+网络与信息安全,期刊,C,8,SCN,Security and Communication Networks,Wiley,https://dblp.org/db/journals/scn/,19
+网络与信息安全,期刊,C,9,HCC,High-Confidence Computing,Elsevier,https://www.journals.elsevier.com/high-confidence-computing,19
+网络与信息安全,会议,A,1,CCS,ACM Conference on Computer and Communications Security,ACM,https://dblp.org/db/conf/ccs/,20
+网络与信息安全,会议,A,2,EUROCRYPT,International Conference on the Theory and Applications of Cryptographic Techniques,Springer,https://dblp.org/db/conf/eurocrypt/,20
+网络与信息安全,会议,A,3,S&P,IEEE Symposium on Security and Privacy,IEEE,https://dblp.org/db/conf/sp/,20
+网络与信息安全,会议,A,4,CRYPTO,International Cryptology Conference,Springer,https://dblp.org/db/conf/crypto/,20
+网络与信息安全,会议,A,5,USENIX Security,USENIX Security Symposium,USENIX Association,https://dblp.org/db/conf/uss/,20
+网络与信息安全,会议,A,6,NDSS,Network and Distributed System Security Symposium,ISOC,https://dblp.org/db/conf/ndss/,20
+网络与信息安全,会议,B,1,ACSAC,Annual Computer Security Applications Conference,IEEE,https://dblp.org/db/conf/acsac/index.html,21
+网络与信息安全,会议,B,2,ASIACRYPT,Annual International Conference on the Theory and Application of Cryptology and Information Security,Springer,https://dblp.org/db/conf/asiacrypt/index.html,21
+网络与信息安全,会议,B,3,ESORICS,European Symposium on Research in Computer Security,Springer,https://dblp.org/db/conf/esorics/index.html,21
+网络与信息安全,会议,B,4,FSE,Fast Software Encryption,Springer,https://dblp.org/db/conf/fse/index.html,21
+网络与信息安全,会议,B,5,CSFW,IEEE Computer Security Foundations Workshop,IEEE,https://dblp.org/db/conf/csfw/index.html,21
+网络与信息安全,会议,B,6,SRDS,IEEE International Symposium on Reliable Distributed Systems,IEEE,https://dblp.org/db/conf/srds/index.html,21
+网络与信息安全,会议,B,7,CHES,International Conference on Cryptographic Hardware and Embedded Systems,Springer,https://dblp.org/db/conf/ches/index.html,21
+网络与信息安全,会议,B,8,DSN,International Conference on Dependable Systems and Networks,IEEE/ IFIP,https://dblp.org/db/conf/dsn/index.html,21
+网络与信息安全,会议,B,9,RAID,International Symposium on Recent Advances in Intrusion Detection,Springer,https://dblp.org/db/conf/raid/index.html,21
+网络与信息安全,会议,B,10,PKC,International Workshop on Practice and Theory in Public Key Cryptography,Springer,https://dblp.org/db/conf/pkc/index.html,21
+网络与信息安全,会议,B,11,TCC,Theory of Cryptography Conference,Springer,https://dblp.org/db/conf/tcc/index.html,21
+网络与信息安全,会议,C,1,WiSec,ACM Conference on Security and Privacy in Wireless and Mobile Networks,ACM,https://dblp.org/db/conf/wisec/,22
+网络与信息安全,会议,C,2,SACMAT,ACM Symposium on Access Control Models and Technologies,ACM,https://dblp.org/db/conf/sacmat/,22
+网络与信息安全,会议,C,3,DRM,ACM Workshop on Digital Rights Management,ACM,https://dblp.org/db/conf/drm/,22
+网络与信息安全,会议,C,4,IH&MMSec,ACM Workshop on Information Hiding and Multimedia Security,ACM,https://dblp.org/db/conf/ih/,22
+网络与信息安全,会议,C,5,ACNS,International Conference on Applied Cryptography and Network Security,Springer,https://dblp.org/db/conf/acns/,22
+网络与信息安全,会议,C,6,AsiaCCS,ACM Asia Conference on Computer and Communications Security,ACM,https://dblp.org/db/conf/ccs/,22
+网络与信息安全,会议,C,7,ACISP,Australasia Conference on Information Security and Privacy,Springer,https://dblp.org/db/conf/acisp/,22
+网络与信息安全,会议,C,8,CT-RSA,The Cryptographer's Track at RSA Conference,Springer,https://dblp.org/db/conf/ctrsa/,22
+网络与信息安全,会议,C,9,DIMVA,Conference on Detection of Intrusions and Malware & Vulnerability Assessment,Springer,https://dblp.org/db/conf/dimva/,22
+网络与信息安全,会议,C,10,DFRWS,Digital Forensic Research Workshop,Elsevier,https://dblp.org/db/conf/dfrws/,22
+网络与信息安全,会议,C,11,FC,Financial Cryptography and Data Security,Springer,https://dblp.org/db/conf/fc/,22
+网络与信息安全,会议,C,12,TrustCom,"IEEE International Conference on Trust, Security and Privacy in Computing and Communications",IEEE,https://dblp.org/db/conf/trustcom/,22
+网络与信息安全,会议,C,13,SEC,IFIP International Information Security Conference,Springer,https://dblp.org/db/conf/sec/,22
+网络与信息安全,会议,C,14,IFIP WG 11.9,IFIP Working Group 11.9 International Conference on Digital Forensics,Springer,https://dblp.org/db/conf/ifip11-9/index.html,23
+网络与信息安全,会议,C,15,ISC,Information Security Conference,Springer,https://dblp.org/db/conf/isw/,23
+网络与信息安全,会议,C,16,ICDF2C,International Conference on Digital Forensics & Cyber Crime,Springer,https://dblp.org/db/conf/icdf2c/,23
+网络与信息安全,会议,C,17,ICICS,International Conference on Information and Communications Security,Springer,https://dblp.org/db/conf/icics/,23
+网络与信息安全,会议,C,18,SecureComm,International Conference on Security and Privacy in Communication Networks,ACM,https://dblp.org/db/conf/securecomm/,23
+网络与信息安全,会议,C,19,NSPW,New Security Paradigms Workshop,ACM,https://dblp.org/db/conf/nspw/,23
+网络与信息安全,会议,C,20,PAM,Passive and Active Measurement Conference,Springer,https://dblp.org/db/conf/pam/,23
+网络与信息安全,会议,C,21,PETS,Privacy Enhancing Technologies Symposium,Springer,https://dblp.org/db/conf/pet/,23
+网络与信息安全,会议,C,22,SAC,Selected Areas in Cryptography,Springer,https://dblp.org/db/conf/sacrypt/,23
+网络与信息安全,会议,C,23,SOUPS,Symposium On Usable Privacy and Security,USENIX,https://dblp.org/db/conf/soups/,23
+网络与信息安全,会议,C,24,HotSec,USENIX Workshop on Hot Topics in Security,USENIX,https://www.usenix.org/events/,23
+网络与信息安全,会议,C,25,EuroS&P,IEEE European Symposium on Security and Privacy,IEEE,https://dblp.org/db/conf/eurosp/index.html,23
+网络与信息安全,会议,C,26,Inscrypt,International Conference on Information Security and Cryptology,Springer,https://dblp.org/db/conf/cisc/index.html,23
+网络与信息安全,会议,C,27,CODASPY,Conference on Data and Application Security and Privacy,ACM,https://dblp.org/db/conf/codaspy/index.html,23
+网络与信息安全,会议,C,28,BlockSys,"International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems",Springer,https://dblp.org/db/conf/blocksys/index.html,23
+网络与信息安全,会议,C,29,CSCloud,International Conference on Cyber Security and Cloud Computing,IEEE CSCloud Steering Committee,https://dblp.org/db/conf/cscloud/index.html,23
+软件工程/系统软件/程序设计语言,期刊,A,1,TOPLAS,ACM Transactions on Programming Languages and Systems,ACM,https://dblp.org/db/journals/toplas/,24
+软件工程/系统软件/程序设计语言,期刊,A,2,TOSEM,ACM Transactions on Software Engineering and Methodology,ACM,https://dblp.org/db/journals/tosem/,24
+软件工程/系统软件/程序设计语言,期刊,A,3,TSE,IEEE Transactions on Software Engineering,IEEE,https://dblp.org/db/journals/tse/,24
+软件工程/系统软件/程序设计语言,期刊,A,4,TSC,IEEE Transactions on Services Computing,IEEE,https://dblp.org/db/journals/tsc/,24
+软件工程/系统软件/程序设计语言,期刊,B,1,ASE,Automated Software Engineering,Springer,https://dblp.org/db/journals/ase/,25
+软件工程/系统软件/程序设计语言,期刊,B,2,ESE,Empirical Software Engineering,Springer,https://dblp.org/db/journals/ese/,25
+软件工程/系统软件/程序设计语言,期刊,B,3,IETS,IET Software,IET,https://dblp.org/db/journals/iet-sen/,25
+软件工程/系统软件/程序设计语言,期刊,B,4,IST,Information and Software Technology,Elsevier,https://dblp.org/db/journals/infsof/index.html,25
+软件工程/系统软件/程序设计语言,期刊,B,5,JFP,Journal of Functional Programming,Cambridge University Press,https://dblp.org/db/journals/jfp/,25
+软件工程/系统软件/程序设计语言,期刊,B,6,,Journal of Software: Evolution and Process,Wiley,https://dblp.org/db/journals/smr/,25
+软件工程/系统软件/程序设计语言,期刊,B,7,JSS,Journal of Systems and Software,Elsevier,https://dblp.org/db/journals/jss/,25
+软件工程/系统软件/程序设计语言,期刊,B,8,RE,Requirements Engineering,Springer,https://dblp.org/db/journals/re/,25
+软件工程/系统软件/程序设计语言,期刊,B,9,SCP,Science of Computer Programming,Elsevier,https://dblp.org/db/journals/scp/,25
+软件工程/系统软件/程序设计语言,期刊,B,10,SoSyM,Software and Systems Modeling,Springer,https://dblp.org/db/journals/sosym/,25
+软件工程/系统软件/程序设计语言,期刊,B,11,STVR,"Software Testing, Verification and Reliability",Wiley,https://dblp.org/db/journals/stvr/index.html,25
+软件工程/系统软件/程序设计语言,期刊,B,12,SPE,Software: Practice and Experience,Wiley,https://dblp.org/db/journals/spe/,25
+软件工程/系统软件/程序设计语言,期刊,C,1,CL,"Computer Languages, Systems and Structures",Elsevier,https://dblp.org/db/journals/cl/index.html,26
+软件工程/系统软件/程序设计语言,期刊,C,2,IJSEKE,International Journal of Software Engineering and Knowledge Engineering,World Scientific,https://dblp.org/db/journals/ijseke/index.html,26
+软件工程/系统软件/程序设计语言,期刊,C,3,STTT,International Journal of Software Tools for Technology Transfer,Springer,https://dblp.org/db/journals/sttt/,26
+软件工程/系统软件/程序设计语言,期刊,C,4,JLAMP,Journal of Logical and Algebraic Methods in Programming,Elsevier,https://dblp.org/db/journals/jlap/index.html,26
+软件工程/系统软件/程序设计语言,期刊,C,5,JWE,Journal of Web Engineering,Rinton Press,https://dblp.org/db/journals/jwe/,26
+软件工程/系统软件/程序设计语言,期刊,C,6,SOCA,Service Oriented Computing and Applications,Springer,https://dblp.org/db/journals/soca/,26
+软件工程/系统软件/程序设计语言,期刊,C,7,SQJ,Software Quality Journal,Springer,https://dblp.org/db/journals/sqj/,26
+软件工程/系统软件/程序设计语言,期刊,C,8,TPLP,Theory and Practice of Logic Programming,Cambridge University Press,https://dblp.org/db/journals/tplp/,26
+软件工程/系统软件/程序设计语言,期刊,C,9,PACM PL,Proceedings of the ACM on Programming Languages,ACM,https://dblp.org/db/journals/pacmpl/index.html,26
+软件工程/系统软件/程序设计语言,会议,A,1,PLDI,ACM SIGPLAN Conference on Programming Language Design and Implementation,ACM,https://dblp.org/db/conf/pldi/,27
+软件工程/系统软件/程序设计语言,会议,A,2,POPL,ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages,ACM,https://dblp.org/db/conf/popl/,27
+软件工程/系统软件/程序设计语言,会议,A,3,FSE,ACM International Conference on the Foundations of Software Engineering,ACM,https://dblp.org/db/conf/sigsoft/,27
+软件工程/系统软件/程序设计语言,会议,A,4,SOSP,ACM Symposium on Operating Systems Principles,ACM,https://dblp.org/db/conf/sosp/,27
+软件工程/系统软件/程序设计语言,会议,A,5,OOPSLA,"Conference on Object-Oriented Programming Systems, Languages, and Applications",ACM,https://dblp.org/db/conf/oopsla/,27
+软件工程/系统软件/程序设计语言,会议,A,6,ASE,International Conference on Automated Software Engineering,IEEE/ ACM,https://dblp.org/db/conf/kbse/,27
+软件工程/系统软件/程序设计语言,会议,A,7,ICSE,International Conference on Software Engineering,IEEE/ ACM,https://dblp.org/db/conf/icse/,27
+软件工程/系统软件/程序设计语言,会议,A,8,ISSTA,International Symposium on Software Testing and Analysis,ACM,https://dblp.org/db/conf/issta/,27
+软件工程/系统软件/程序设计语言,会议,A,9,OSDI,USENIX Symposium on Operating Systems Design and Implementation,USENIX,https://dblp.org/db/conf/osdi/,27
+软件工程/系统软件/程序设计语言,会议,A,10,FM,International Symposium on Formal Methods,FME,https://dblp.org/db/conf/fm/,27
+软件工程/系统软件/程序设计语言,会议,B,1,ECOOP,European Conference on Object-Oriented Programming,AITO,https://dblp.org/db/conf/ecoop/,28
+软件工程/系统软件/程序设计语言,会议,B,2,ETAPS,European Joint Conferences on Theory and Practice of Software,Springer,https://dblp.org/db/conf/etaps/,28
+软件工程/系统软件/程序设计语言,会议,B,3,ICPC,IEEE International Conference on Program Comprehension,IEEE,https://dblp.org/db/conf/iwpc/,28
+软件工程/系统软件/程序设计语言,会议,B,4,RE,IEEE International Requirements Engineering Conference,IEEE,https://dblp.org/db/conf/re/,28
+软件工程/系统软件/程序设计语言,会议,B,5,CAiSE,International Conference on Advanced Information Systems Engineering,Springer,https://dblp.org/db/conf/caise/,28
+软件工程/系统软件/程序设计语言,会议,B,6,ICFP,ACM SIGPLAN International Conference on Function Programming,ACM,https://dblp.org/db/conf/icfp/,28
+软件工程/系统软件/程序设计语言,会议,B,7,LCTES,"ACM SIGPLAN/SIGBED International Conference on Languages, Compilers and Tools for Embedded Systems",ACM,https://dblp.org/db/conf/lctrts/,28
+软件工程/系统软件/程序设计语言,会议,B,8,MoDELS,ACM/IEEE International Conference on Model Driven EngineeringLanguages and Systems,IEEE/ ACM,https://dblp.org/db/conf/models/,28
+软件工程/系统软件/程序设计语言,会议,B,9,CP,International Conference on Principles and Practice of Constraint Programming,Springer,https://dblp.org/db/conf/cp/,28
+软件工程/系统软件/程序设计语言,会议,B,10,ICSOC,International Conference on Service Oriented Computing,Springer,https://dblp.org/db/conf/icsoc/,28
+软件工程/系统软件/程序设计语言,会议,B,11,SANER,"IEEE International Conference on Software Analysis, Evolution, and Reengineering",IEEE,https://dblp.org/db/conf/wcre/,29
+软件工程/系统软件/程序设计语言,会议,B,12,ICSME,International Conference on Software Maintenance and Evolution,IEEE,https://dblp.org/db/conf/icsm/,29
+软件工程/系统软件/程序设计语言,会议,B,13,VMCAI,"International Conference on Verification, Model Checking and Abstract Interpretation",Springer,https://dblp.org/db/conf/vmcai/,29
+软件工程/系统软件/程序设计语言,会议,B,14,ICWS,IEEE International Conference on Web Services,IEEE,https://dblp.org/db/conf/icws/,29
+软件工程/系统软件/程序设计语言,会议,B,15,Middleware,International Middleware Conference,ACM/IFIP/ USENIX,https://dblp.org/db/conf/middleware/,29
+软件工程/系统软件/程序设计语言,会议,B,16,SAS,International Static Analysis Symposium,Springer,https://dblp.org/db/conf/sas/,29
+软件工程/系统软件/程序设计语言,会议,B,17,ESEM,International Symposium on Empirical Software Engineering and Measurement,IEEE/ ACM,https://dblp.org/db/conf/esem/,29
+软件工程/系统软件/程序设计语言,会议,B,18,ISSRE,IEEE International Symposium on Software Reliability Engineering,IEEE,https://dblp.org/db/conf/issre/,29
+软件工程/系统软件/程序设计语言,会议,B,19,HotOS,USENIX Workshop on Hot Topics in Operating Systems,USENIX,https://dblp.org/db/conf/hotos/,29
+软件工程/系统软件/程序设计语言,会议,B,20,CC,International Conference on Compiler Construction,ACM,https://dblp.org/db/conf/cc/index.html,29
+软件工程/系统软件/程序设计语言,会议,C,1,PEPM,ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation,ACM,https://dblp.org/db/conf/pepm/,30
+软件工程/系统软件/程序设计语言,会议,C,2,PASTE,ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering,ACM,https://dblp.org/db/conf/paste/,30
+软件工程/系统软件/程序设计语言,会议,C,3,APLAS,Asian Symposium on Programming Languages and Systems,Springer,https://dblp.org/db/conf/aplas/,30
+软件工程/系统软件/程序设计语言,会议,C,4,APSEC,Asia-Pacific Software Engineering Conference,IEEE,https://dblp.org/db/conf/apsec/,30
+软件工程/系统软件/程序设计语言,会议,C,5,EASE,International Conference on Evaluation and Assessment in Software Engineering,ACM,https://dblp.org/db/conf/ease/,30
+软件工程/系统软件/程序设计语言,会议,C,6,ICECCS,International Conference on Engineering of Complex Computer Systems,IEEE,https://dblp.org/db/conf/iceccs/,30
+软件工程/系统软件/程序设计语言,会议,C,7,ICST,"IEEE International Conference on Software Testing, Verification and Validation",IEEE,https://dblp.org/db/conf/icst/,30
+软件工程/系统软件/程序设计语言,会议,C,8,ISPASS,IEEE International Symposium on Performance Analysis of Systems and Software,IEEE,https://dblp.org/db/conf/ispass/,30
+软件工程/系统软件/程序设计语言,会议,C,9,SCAM,IEEE International Working Conference on Source Code Analysis and Manipulation,IEEE,https://dblp.org/db/conf/scam/,30
+软件工程/系统软件/程序设计语言,会议,C,10,COMPSAC,International Computer Software and Applications Conference,IEEE,https://dblp.org/db/conf/compsac/,30
+软件工程/系统软件/程序设计语言,会议,C,11,ICFEM,International Conference on Formal Engineering Methods,Springer,https://dblp.org/db/conf/icfem/,30
+软件工程/系统软件/程序设计语言,会议,C,12,SSE,IEEE International Conference on Software Services Engineering,IEEE,https://dblp.org/db/conf/IEEEscc/,30
+软件工程/系统软件/程序设计语言,会议,C,13,ICSSP,International Conference on Software and System Process,ACM,https://dblp.org/db/conf/ispw/index.html,30
+软件工程/系统软件/程序设计语言,会议,C,14,SEKE,International Conference on Software Engineering and Knowledge Engineering,KSI,https://dblp.org/db/conf/seke/,31
+软件工程/系统软件/程序设计语言,会议,C,15,QRS,"International Conference on Software Quality, Reliability and Security",IEEE,https://dblp.org/db/conf/qrs/,31
+软件工程/系统软件/程序设计语言,会议,C,16,ICSR,International Conference on Software Reuse,Springer,https://dblp.org/db/conf/icsr/,31
+软件工程/系统软件/程序设计语言,会议,C,17,ICWE,International Conference on Web Engineering,Springer,https://dblp.org/db/conf/icwe/,31
+软件工程/系统软件/程序设计语言,会议,C,18,SPIN,International Symposium on Model Checking of Software,Springer,https://dblp.org/db/conf/spin/index.html,31
+软件工程/系统软件/程序设计语言,会议,C,19,ATVA,International Symposium on Automated Technology for Verification and Analysis,Springer,https://dblp.org/db/conf/atva/,31
+软件工程/系统软件/程序设计语言,会议,C,20,LOPSTR,International Symposium on Logic-based Program Synthesis and Transformation,Springer,https://dblp.org/db/conf/lopstr/,31
+软件工程/系统软件/程序设计语言,会议,C,21,TASE,Theoretical Aspects of Software Engineering Conference,IEEE,https://dblp.org/db/conf/tase/,31
+软件工程/系统软件/程序设计语言,会议,C,22,MSR,Mining Software Repositories,IEEE/ ACM,https://dblp.org/db/conf/msr/,31
+软件工程/系统软件/程序设计语言,会议,C,23,REFSQ,Requirements Engineering: Foundation for Software Quality,Springer,https://dblp.org/db/conf/refsq/,31
+软件工程/系统软件/程序设计语言,会议,C,24,WICSA,Working IEEE/IFIP Conference on Software Architecture,IEEE,https://dblp.org/db/conf/wicsa/,31
+软件工程/系统软件/程序设计语言,会议,C,25,Internetware,Asia-Pacific Symposium on Internetware,ACM,https://dblp.org/db/conf/internetware/index.html,31
+软件工程/系统软件/程序设计语言,会议,C,26,RV,International Conference on Runtime Verification,Springer,https://dblp.org/db/conf/rv/index.html,31
+软件工程/系统软件/程序设计语言,会议,C,27,MEMOCODE,International Conference on Formal Methods and Models for Co-Design,IEEE/ ACM,https://dblp.org/db/conf/memocode/index.html,31
+数据库/数据挖掘/内容检索,期刊,A,1,TODS,ACM Transactions on Database Systems,ACM,https://dblp.org/db/journals/tods/,32
+数据库/数据挖掘/内容检索,期刊,A,2,TOIS,ACM Transactions on Information Systems,ACM,https://dblp.org/db/journals/tois/,32
+数据库/数据挖掘/内容检索,期刊,A,3,TKDE,IEEE Transactions on Knowledge and Data Engineering,IEEE,https://dblp.org/db/journals/tkde/,32
+数据库/数据挖掘/内容检索,期刊,A,4,VLDBJ,The VLDB Journal,Springer,https://dblp.org/db/journals/vldb/,32
+数据库/数据挖掘/内容检索,期刊,B,1,TKDD,ACM Transactions on Knowledge Discovery from Data,ACM,https://dblp.org/db/journals/tkdd/,33
+数据库/数据挖掘/内容检索,期刊,B,2,TWEB,ACM Transactions on the Web,ACM,https://dblp.org/db/journals/tweb/,33
+数据库/数据挖掘/内容检索,期刊,B,3,AEI,Advanced Engineering Informatics,Elsevier,https://dblp.org/db/journals/aei/,33
+数据库/数据挖掘/内容检索,期刊,B,4,DKE,Data & Knowledge Engineering,Elsevier,https://dblp.org/db/journals/dke/,33
+数据库/数据挖掘/内容检索,期刊,B,5,DMKD,Data Mining and Knowledge Discovery,Springer,https://dblp.org/db/journals/datamine/,33
+数据库/数据挖掘/内容检索,期刊,B,6,EJIS,European Journal of Information Systems,Springer,https://dblp.org/db/journals/ejis/,33
+数据库/数据挖掘/内容检索,期刊,B,7,,GeoInformatica,Springer,https://dblp.org/db/journals/geoinformatica/,33
+数据库/数据挖掘/内容检索,期刊,B,8,IPM,Information Processing and Management,Elsevier,https://dblp.org/db/journals/ipm/,33
+数据库/数据挖掘/内容检索,期刊,B,9,,Information Sciences,Elsevier,https://dblp.org/db/journals/isci/,33
+数据库/数据挖掘/内容检索,期刊,B,10,IS,Information Systems,Elsevier,https://dblp.org/db/journals/is/,33
+数据库/数据挖掘/内容检索,期刊,B,11,JASIST,Journal of the Association for Information Science and Technology,Wiley,https://dblp.org/db/journals/jasis/,33
+数据库/数据挖掘/内容检索,期刊,B,12,JWS,Journal of Web Semantics,Elsevier,https://dblp.org/db/journals/ws/,33
+数据库/数据挖掘/内容检索,期刊,B,13,KAIS,Knowledge and Information Systems,Springer,https://dblp.org/db/journals/kais/,33
+数据库/数据挖掘/内容检索,期刊,B,14,DSE,Data Science and Engineering,CCF/ Springer Nature,https://dblp.org/db/journals/dase/index.html,33
+数据库/数据挖掘/内容检索,期刊,C,1,DPD,Distributed and Parallel Databases,Springer,https://dblp.org/db/journals/dpd/,34
+数据库/数据挖掘/内容检索,期刊,C,2,I&M,Information & Management,Elsevier,https://dblp.org/db/journals/iam/,34
+数据库/数据挖掘/内容检索,期刊,C,3,IPL,Information Processing Letters,Elsevier,https://dblp.org/db/journals/ipl/,34
+数据库/数据挖掘/内容检索,期刊,C,4,（原 IR）,Discover Computing（原 Information Retrieval Journal）,Springer,https://dblp.org/db/journals/ir/,34
+数据库/数据挖掘/内容检索,期刊,C,5,IJCIS,International Journal of Cooperative Information Systems,World Scientific,https://dblp.org/db/journals/ijcis/,34
+数据库/数据挖掘/内容检索,期刊,C,6,IJGIS,International Journal of Geographical Information Science,Taylor & Francis,https://dblp.org/db/journals/gis/,34
+数据库/数据挖掘/内容检索,期刊,C,7,IJIS,International Journal of Intelligent Systems,Wiley,https://dblp.org/db/journals/ijis/,34
+数据库/数据挖掘/内容检索,期刊,C,8,IJKM,International Journal of Knowledge Management,IGI,https://dblp.org/db/journals/ijkm/,34
+数据库/数据挖掘/内容检索,期刊,C,9,IJSWIS,International Journal on Semantic Web and Information Systems,IGI,https://dblp.org/db/journals/ijswis/,34
+数据库/数据挖掘/内容检索,期刊,C,10,JCIS,Journal of Computer Information Systems,IACIS,https://dblp.org/db/journals/jcis/,34
+数据库/数据挖掘/内容检索,期刊,C,11,JDM,Journal of Database Management,IGI-Global,https://dblp.org/db/journals/jdm/,34
+数据库/数据挖掘/内容检索,期刊,C,12,JGITM,Journal of Global Information Technology Management,Ivy League Publishing,https://dblp.org/db/journals/jgim/index.html,34
+数据库/数据挖掘/内容检索,期刊,C,13,JIIS,Journal of Intelligent Information Systems,Springer,https://dblp.org/db/journals/jiis/,34
+数据库/数据挖掘/内容检索,期刊,C,14,JSIS,The Journal of Strategic Information Systems,Elsevier,https://dblp.org/db/journals/jsis/,34
+数据库/数据挖掘/内容检索,期刊,C,15,TIST,ACM Transactions on Intelligent Systems and Technology,ACM,https://dblp.org/db/journals/tist/index.html,34
+数据库/数据挖掘/内容检索,期刊,C,16,TORS,ACM Transactions on Recommender Systems,ACM,https://dblp.org/db/journals/tors/index.html,34
+数据库/数据挖掘/内容检索,会议,A,1,SIGMOD,ACM SIGMOD Conference,ACM,https://dblp.org/db/conf/sigmod/,35
+数据库/数据挖掘/内容检索,会议,A,2,SIGKDD,ACM SIGKDD Conference on Knowledge Discovery and Data Mining,ACM,https://dblp.org/db/conf/kdd/,35
+数据库/数据挖掘/内容检索,会议,A,3,ICDE,IEEE International Conference on Data Engineering,IEEE,https://dblp.org/db/conf/icde/,35
+数据库/数据挖掘/内容检索,会议,A,4,SIGIR,International ACM SIGIR Conference on Research and Development in Information Retrieval,ACM,https://dblp.org/db/conf/sigir/,35
+数据库/数据挖掘/内容检索,会议,A,5,VLDB,International Conference on Very Large Data Bases,Morgan Kaufmann/ ACM,https://dblp.org/db/conf/vldb/,35
+数据库/数据挖掘/内容检索,会议,B,1,CIKM,ACM International Conference on Information and Knowledge Management,ACM,https://dblp.org/db/conf/cikm/,36
+数据库/数据挖掘/内容检索,会议,B,2,WSDM,ACM International Conference on Web Search and Data Mining,ACM,https://dblp.org/db/conf/wsdm/,36
+数据库/数据挖掘/内容检索,会议,B,3,PODS,ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems,ACM,https://dblp.org/db/conf/pods/,36
+数据库/数据挖掘/内容检索,会议,B,4,DASFAA,International Conference on Database Systems for Advanced Applications,Springer,https://dblp.org/db/conf/dasfaa/,36
+数据库/数据挖掘/内容检索,会议,B,5,ECML-PKDD,European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases,Springer,https://dblp.org/db/conf/ecml/; https://dblp.org/db/conf/pkdd/,36
+数据库/数据挖掘/内容检索,会议,B,6,ISWC,IEEE International Semantic Web Conference,IEEE,https://dblp.org/db/conf/semweb/,36
+数据库/数据挖掘/内容检索,会议,B,7,ICDM,IEEE International Conference on Data Mining,IEEE,https://dblp.org/db/conf/icdm/,36
+数据库/数据挖掘/内容检索,会议,B,8,ICDT,International Conference on Database Theory,Springer,https://dblp.org/db/conf/icdt/,36
+数据库/数据挖掘/内容检索,会议,B,9,EDBT,International Conference on Extending Database Technology,Springer,https://dblp.org/db/conf/edbt/,36
+数据库/数据挖掘/内容检索,会议,B,10,CIDR,Conference on Innovative Data Systems Research,Online Proceeding,https://dblp.org/db/conf/cidr/,36
+数据库/数据挖掘/内容检索,会议,B,11,SDM,SIAM International Conference on Data Mining,SIAM,https://dblp.org/db/conf/sdm/,36
+数据库/数据挖掘/内容检索,会议,B,12,RecSys,ACM Conference on Recommender Systems,ACM,https://dblp.org/db/conf/recsys/index.html,36
+数据库/数据挖掘/内容检索,会议,B,13,WISE,Web Information Systems Engineering Conference,Springer,https://dblp.org/db/conf/wise/,36
+数据库/数据挖掘/内容检索,会议,C,1,APWeb,Asia Pacific Web Conference,Springer,https://dblp.org/db/conf/apweb/,37
+数据库/数据挖掘/内容检索,会议,C,2,DEXA,International Conference on Database and Expert System Applications,Springer,https://dblp.org/db/conf/dexa/,37
+数据库/数据挖掘/内容检索,会议,C,3,ECIR,European Conference on Information Retrieval,Springer,https://dblp.org/db/conf/ecir/,37
+数据库/数据挖掘/内容检索,会议,C,4,ESWC,Extended Semantic Web Conference,Springer,https://dblp.org/db/conf/esws/,37
+数据库/数据挖掘/内容检索,会议,C,5,WebDB,International Workshop on Web and Databases,ACM,https://dblp.org/db/conf/webdb/,37
+数据库/数据挖掘/内容检索,会议,C,6,ER,International Conference on Conceptual Modeling,Springer,https://dblp.org/db/conf/er/,37
+数据库/数据挖掘/内容检索,会议,C,7,MDM,International Conference on Mobile Data Management,IEEE,https://dblp.org/db/conf/mdm/,37
+数据库/数据挖掘/内容检索,会议,C,8,SSDBM,International Conference on Scientific and Statistical Database Management,IEEE,https://dblp.org/db/conf/ssdbm/,37
+数据库/数据挖掘/内容检索,会议,C,9,WAIM,International Conference on Web Age Information Management,Springer,https://dblp.org/db/conf/waim/,37
+数据库/数据挖掘/内容检索,会议,C,10,SSTD,International Symposium on Spatial and Temporal Databases,Springer,https://dblp.org/db/conf/ssd/index.html,37
+数据库/数据挖掘/内容检索,会议,C,11,PAKDD,Pacific-Asia Conference on Knowledge Discovery and Data Mining,Springer,https://dblp.org/db/conf/pakdd/,37
+数据库/数据挖掘/内容检索,会议,C,12,ADMA,International Conference on Advanced Data Mining and Applications,Springer,https://dblp.org/db/conf/adma/index.html,37
+数据库/数据挖掘/内容检索,会议,C,13,WISA,Web Information Systems and Applications,Springer,https://dblp.org/db/conf/IEEEwisa/index.html,37
+计算机科学理论,期刊,A,1,TIT,IEEE Transactions on Information Theory,IEEE,https://dblp.org/db/journals/tit/,38
+计算机科学理论,期刊,A,2,IANDC,Information and Computation,Elsevier,https://dblp.org/db/journals/iandc/,38
+计算机科学理论,期刊,A,3,SICOMP,SIAM Journal on Computing,SIAM,https://dblp.org/db/journals/siamcomp/,38
+计算机科学理论,期刊,B,1,TALG,ACM Transactions on Algorithms,ACM,https://dblp.org/db/journals/talg/,39
+计算机科学理论,期刊,B,2,TOCL,ACM Transactions on Computational Logic,ACM,https://dblp.org/db/journals/tocl/,39
+计算机科学理论,期刊,B,3,TOMS,ACM Transactions on Mathematical Software,ACM,https://dblp.org/db/journals/toms/,39
+计算机科学理论,期刊,B,4,Algorithmica,Algorithmica,Springer,https://dblp.org/db/journals/algorithmica/,39
+计算机科学理论,期刊,B,5,CC,Computational Complexity,Springer,https://dblp.org/db/journals/cc/,39
+计算机科学理论,期刊,B,6,FAC,Formal Aspects of Computing,Springer,https://dblp.org/db/journals/fac/,39
+计算机科学理论,期刊,B,7,FMSD,Formal Methods in System Design,Springer,https://dblp.org/db/journals/fmsd/,39
+计算机科学理论,期刊,B,8,INFORMS,INFORMS Journal on Computing,INFORMS,https://dblp.org/db/journals/informs/,39
+计算机科学理论,期刊,B,9,JCSS,Journal of Computer and System Sciences,Elsevier,https://dblp.org/db/journals/jcss/,39
+计算机科学理论,期刊,B,10,JGO,Journal of Global Optimization,Springer,https://dblp.org/db/journals/jgo/,39
+计算机科学理论,期刊,B,11,JSC,Journal of Symbolic Computation,Elsevier,https://dblp.org/db/journals/jsc/,39
+计算机科学理论,期刊,B,12,MSCS,Mathematical Structures in Computer Science,Cambridge University Press,https://dblp.org/db/journals/mscs/,39
+计算机科学理论,期刊,B,13,TCS,Theoretical Computer Science,Elsevier,https://dblp.org/db/journals/tcs/,39
+计算机科学理论,期刊,C,1,ACTA,Acta Informatica,Springer,https://dblp.org/db/journals/acta/,40
+计算机科学理论,期刊,C,2,APAL,Annals of Pure and Applied Logic,Elsevier,https://dblp.org/db/journals/apal/,40
+计算机科学理论,期刊,C,3,DAM,Discrete Applied Mathematics,Elsevier,https://dblp.org/db/journals/dam/,40
+计算机科学理论,期刊,C,4,FUIN,Fundamenta Informaticae,IOS Press,https://dblp.org/db/journals/fuin/,40
+计算机科学理论,期刊,C,5,IPL,Information Processing Letters,Elsevier,https://dblp.org/db/journals/ipl/,40
+计算机科学理论,期刊,C,6,JCOMPLEXITY,Journal of Complexity,Elsevier,https://dblp.org/db/journals/jc/,40
+计算机科学理论,期刊,C,7,LOGCOM,Journal of Logic and Computation,Oxford University Press,https://dblp.org/db/journals/logcom/,40
+计算机科学理论,期刊,C,8,JSL,The Journal of Symbolic Logic,Association for Symbolic Logic,https://dblp.org/db/journals/jsyml/,40
+计算机科学理论,期刊,C,9,LMCS,Logical Methods in Computer Science,LMCS,https://dblp.org/db/journals/lmcs/,40
+计算机科学理论,期刊,C,10,SIDMA,SIAM Journal on Discrete Mathematics,SIAM,https://dblp.org/db/journals/siamdm/,40
+计算机科学理论,期刊,C,11,,Theory of Computing Systems,Springer,https://dblp.org/db/journals/mst/,40
+计算机科学理论,期刊,C,12,TQC,ACM Transactions in Quantum Computing,ACM,https://dblp.org/db/journals/tqc/index.html,40
+计算机科学理论,会议,A,1,STOC,ACM Symposium on the Theory of Computing,ACM,https://dblp.org/db/conf/stoc/,41
+计算机科学理论,会议,A,2,SODA,ACM-SIAM Symposium on Discrete Algorithms,SIAM,https://dblp.org/db/conf/soda/,41
+计算机科学理论,会议,A,3,CAV,International Conference on Computer Aided Verification,Springer,https://dblp.org/db/conf/cav/,41
+计算机科学理论,会议,A,4,FOCS,IEEE Annual Symposium on Foundations of Computer Science,IEEE,https://dblp.org/db/conf/focs/,41
+计算机科学理论,会议,A,5,LICS,ACM/IEEE Symposium on Logic in Computer Science,IEEE,https://dblp.org/db/conf/lics/,41
+计算机科学理论,会议,B,1,SoCG,International Symposium on Computational Geometry,ACM,https://dblp.org/db/conf/compgeom/index.html,42
+计算机科学理论,会议,B,2,ESA,European Symposium on Algorithms,Springer,https://dblp.org/db/conf/esa/,42
+计算机科学理论,会议,B,3,CCC,Conference on Computational Complexity,IEEE,https://dblp.org/db/conf/coco/,42
+计算机科学理论,会议,B,4,ICALP,"International Colloquium on Automata, Languages and Programming",Springer,https://dblp.org/db/conf/icalp/,42
+计算机科学理论,会议,B,5,CADE,Conference on Automated Deduction,Springer,https://dblp.org/db/conf/cade/,42
+计算机科学理论,会议,B,6,CONCUR,International Conference on Concurrency Theory,Springer,https://dblp.org/db/conf/concur/,42
+计算机科学理论,会议,B,7,HSCC,International Conference on Hybrid Systems: Computation and Control,Springer/ ACM,https://dblp.org/db/conf/hybrid/,42
+计算机科学理论,会议,B,8,SAT,International Conference on Theory and Applications of Satisfiability Testing,Springer,https://dblp.org/db/conf/sat/,42
+计算机科学理论,会议,B,9,COCOON,International Computing and Combinatorics Conference,Springer,https://dblp.org/db/conf/cocoon/index.html,42
+计算机科学理论,会议,B,10,FMCAD,Formal Methods in Computer-Aided Design,ACM,https://dblp.org/db/conf/fmcad/,42
+计算机科学理论,会议,C,1,CSL,Computer Science Logic,Springer,https://dblp.org/db/conf/csl/,43
+计算机科学理论,会议,C,2,FSTTCS,Foundations of Software Technology and Theoretical Computer Science,Indian Association for Research in Computing Science,https://dblp.org/db/conf/fsttcs/,43
+计算机科学理论,会议,C,3,DSAA,IEEE International Conference on Data Science and Advanced Analytics,IEEE,https://dblp.org/db/conf/dsaa/,43
+计算机科学理论,会议,C,4,ICTAC,International Colloquium on Theoretical Aspects of Computing,Springer,https://dblp.org/db/conf/ictac/,43
+计算机科学理论,会议,C,5,IPCO,International Conference on Integer Programming and Combinatorial Optimization,Springer,https://dblp.org/db/conf/ipco/,43
+计算机科学理论,会议,C,6,FSCD（原 RTA）,International Conference on Formal Structures for Computation and Deduction,Dagstuhl Leibniz LIPIcs,https://dblp.org/db/conf/rta/,43
+计算机科学理论,会议,C,7,ISAAC,International Symposium on Algorithms and Computation,Springer,https://dblp.org/db/conf/isaac/,43
+计算机科学理论,会议,C,8,MFCS,International Conference on Mathematical Foundations of Computer Science,Springer,https://dblp.org/db/conf/mfcs/,43
+计算机科学理论,会议,C,9,STACS,Symposium on Theoretical Aspects of Computer Science,Springer,https://dblp.org/db/conf/stacs/,43
+计算机科学理论,会议,C,10,SETTA,"International Symposium on Software Engineering: Theories, Tools, and Applications",Springer,https://dblp.org/db/conf/setta/index.html,43
+计算机图形学与多媒体,期刊,A,1,TOG,ACM Transactions on Graphics,ACM,https://dblp.org/db/journals/tog/,44
+计算机图形学与多媒体,期刊,A,2,TIP,IEEE Transactions on Image Processing,IEEE,https://dblp.org/db/journals/tip/,44
+计算机图形学与多媒体,期刊,A,3,TVCG,IEEE Transactions on Visualization and Computer Graphics,IEEE,https://dblp.org/db/journals/tvcg/,44
+计算机图形学与多媒体,期刊,A,4,TMM,IEEE Transactions on Multimedia,IEEE,https://dblp.org/db/journals/tmm/,44
+计算机图形学与多媒体,期刊,B,1,TOMM,"ACM Transactions on Multimedia Computing, Communications and Applications",ACM,https://dblp.org/db/journals/tomccap/,45
+计算机图形学与多媒体,期刊,B,2,CAGD,Computer Aided Geometric Design,Elsevier,https://dblp.org/db/journals/cagd/,45
+计算机图形学与多媒体,期刊,B,3,CGF,Computer Graphics Forum,Wiley,https://dblp.org/db/journals/cgf/,45
+计算机图形学与多媒体,期刊,B,4,CAD,Computer-Aided Design,Elsevier,https://dblp.org/db/journals/cad/,45
+计算机图形学与多媒体,期刊,B,5,TCSVT,IEEE Transactions on Circuits and Systems for Video Technology,IEEE,https://dblp.org/db/journals/tcsv/,45
+计算机图形学与多媒体,期刊,B,6,JASA,The Journal of the Acoustical Society of America,AIP,https://scitation.aip.org/content/asa/journal/jasa,45
+计算机图形学与多媒体,期刊,B,7,SIIMS,SIAM Journal on Imaging Sciences,SIAM,https://dblp.org/db/journals/siamis/,45
+计算机图形学与多媒体,期刊,B,8,SPECOM,Speech Communication,Elsevier,https://dblp.org/db/journals/speech/,45
+计算机图形学与多媒体,期刊,B,9,CVMJ,Computational Visual Media,清华大学出版社/IEEE（原 Tsinghua University/Springer）,https://dblp.org/db/journals/cvm/index.html,45
+计算机图形学与多媒体,期刊,C,1,CGTA,Computational Geometry: Theory and Applications,Elsevier,https://dblp.org/db/journals/comgeo/,46
+计算机图形学与多媒体,期刊,C,2,CAVW,Computer animation & virtual worlds,Wiley,https://dblp.org/db/journals/jvca/index.html,46
+计算机图形学与多媒体,期刊,C,3,C&G,Computers & Graphics,Elsevier,https://dblp.org/db/journals/cg/,46
+计算机图形学与多媒体,期刊,C,4,DCG,Discrete & Computational Geometry,Springer,https://dblp.org/db/journals/dcg/,46
+计算机图形学与多媒体,期刊,C,5,SPL,IEEE Signal Processing Letters,IEEE,https://dblp.org/db/journals/spl/,46
+计算机图形学与多媒体,期刊,C,6,IET-IPR,IET Image Processing,IET,https://dblp.org/db/journals/iet-ipr/,46
+计算机图形学与多媒体,期刊,C,7,JVCIR,Journal of Visual Communication and Image Representation,Elsevier,https://dblp.org/db/journals/jvcir/,46
+计算机图形学与多媒体,期刊,C,8,MS,Multimedia Systems,Springer,https://dblp.org/db/journals/mms/,46
+计算机图形学与多媒体,期刊,C,9,MTA,Multimedia Tools and Applications,Springer,https://dblp.org/db/journals/mta/,46
+计算机图形学与多媒体,期刊,C,10,SIGPRO,Signal Processing,Elsevier,https://dblp.org/db/journals/sigpro/,46
+计算机图形学与多媒体,期刊,C,11,IMAGE,Signal Processing: Image Communication,Elsevier,https://dblp.org/db/journals/spic/,46
+计算机图形学与多媒体,期刊,C,12,TVC,The Visual Computer,Springer,https://dblp.org/db/journals/vc/,46
+计算机图形学与多媒体,期刊,C,13,VI,Visual Informatics,浙江大学出版社,https://dblp.org/db/journals/vi/index.html,46
+计算机图形学与多媒体,期刊,C,14,VRIH,Virtual Reality & Intelligent Hardware,中国科技出版社/北京航空航天大学,https://dblp.org/db/journals/vrih/index.html,46
+计算机图形学与多媒体,期刊,C,15,GMOD,Graphical Models,Elsevier,https://dblp.org/db/journals/cvgip/,46
+计算机图形学与多媒体,会议,A,1,ACM MM,ACM International Conference on Multimedia,ACM,https://dblp.org/db/conf/mm/,47
+计算机图形学与多媒体,会议,A,2,SIGGRAPH,ACM Special Interest Group on Computer Graphics,ACM,https://dblp.org/db/conf/siggraph/index.html,47
+计算机图形学与多媒体,会议,A,3,VR,IEEE Conference on Virtual Reality and 3D User Interfaces（原 IEEE Virtual Reality）,IEEE,https://dblp.org/db/conf/vr/,47
+计算机图形学与多媒体,会议,A,4,IEEE VIS,IEEE Visualization Conference,IEEE,https://dblp.org/db/conf/visualization/index.html,47
+计算机图形学与多媒体,会议,B,1,ICMR,ACM SIGMM International Conference on Multimedia Retrieval,ACM,https://dblp.org/db/conf/mir/,48
+计算机图形学与多媒体,会议,B,2,I3D,ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games,ACM,https://dblp.org/db/conf/si3d/,48
+计算机图形学与多媒体,会议,B,3,SCA,ACM SIGGRAPH/Eurographics Symposium on Computer Animation,ACM,https://dblp.org/db/conf/sca/index.html,48
+计算机图形学与多媒体,会议,B,4,DCC,Data Compression Conference,IEEE,https://dblp.org/db/conf/dcc/,48
+计算机图形学与多媒体,会议,B,5,Eurographics,Annual Conference of the European Association for Computer Graphics,Wiley/ Blackwell,https://dblp.org/db/conf/eurographics/,48
+计算机图形学与多媒体,会议,B,6,EuroVis,Eurographics Conference on Visualization,ACM,https://dblp.org/db/conf/vissym/,48
+计算机图形学与多媒体,会议,B,7,SGP,Eurographics Symposium on Geometry Processing,Wiley/ Blackwell,https://dblp.org/db/conf/sgp/,48
+计算机图形学与多媒体,会议,B,8,EGSR,Eurographics Symposium on Rendering,Wiley/ Blackwell,https://dblp.org/db/conf/rt/,48
+计算机图形学与多媒体,会议,B,9,ICASSP,"IEEE International Conference on Acoustics, Speech and Signal Processing",IEEE,https://dblp.org/db/conf/icassp/,48
+计算机图形学与多媒体,会议,B,10,ICME,IEEE International Conference on Multimedia & Expo,IEEE,https://dblp.org/db/conf/icmcs/,48
+计算机图形学与多媒体,会议,B,11,ISMAR,International Symposium on Mixed and Augmented Reality,IEEE/ ACM,https://dblp.org/db/conf/ismar/,48
+计算机图形学与多媒体,会议,B,12,PG,Pacific Conference onComputer Graphics and Applications,Wiley/ Blackwell,https://dblp.org/db/conf/pg/index.html,48
+计算机图形学与多媒体,会议,B,13,SPM,Symposium on Solid and Physical Modeling,SMA/ Elsevier,https://dblp.org/db/conf/sma/,48
+计算机图形学与多媒体,会议,B,14,INTERSPEECH,Conference of the International Speech Communication Association,ISCA,https://dblp.org/db/conf/interspeech/index.html,48
+计算机图形学与多媒体,会议,C,1,VRST,ACM Symposium on Virtual Reality Software and Technology,ACM,https://dblp.org/db/conf/vrst/,49
+计算机图形学与多媒体,会议,C,2,CASAXR（原 CASA）,"International Conference on Computer Animation, Social Agents, and Extended Reality（原 International Conference on Computer Animation and Social Agents）",Wiley,https://dblp.org/db/conf/ca/,49
+计算机图形学与多媒体,会议,C,3,CGI,Computer Graphics International,Springer,https://dblp.org/db/conf/cgi/,49
+计算机图形学与多媒体,会议,C,4,GMP,Geometric Modeling and Processing,Elsevier,https://dblp.org/db/conf/gmp/,49
+计算机图形学与多媒体,会议,C,5,PacificVis,IEEE Pacific Visualization Symposium,IEEE,https://dblp.org/db/conf/apvis/,49
+计算机图形学与多媒体,会议,C,6,3DV,International Conference on 3D Vision,IEEE,https://dblp.org/db/conf/3dim/,49
+计算机图形学与多媒体,会议,C,7,CAD/Graphics,International Conference on Computer-Aided Design and Computer Graphics Processing,IEEE,https://dblp.org/db/conf/cadgraphics/,49
+计算机图形学与多媒体,会议,C,8,ICIP,IEEE International Conference on Image Processing,IEEE,https://dblp.org/db/conf/icip/,49
+计算机图形学与多媒体,会议,C,9,MMM,International Conference on Multimedia Modeling,Springer,https://dblp.org/db/conf/mmm/index.html,49
+计算机图形学与多媒体,会议,C,10,MMAsia,ACM Multimedia Asia,ACM,https://dblp.org/db/conf/mmasia/index.html,49
+计算机图形学与多媒体,会议,C,11,SMI,Shape Modeling International,IEEE,https://dblp.org/db/conf/smi/,49
+计算机图形学与多媒体,会议,C,12,CVM,Computational Visual Media,Tsinghua University,https://dblp.org/db/conf/cvm/index.html,49
+计算机图形学与多媒体,会议,C,13,PRCV,Chinese Conference on Pattern Recognition and Computer Vision,Springer,https://dblp.org/db/conf/prcv/index.html,49
+计算机图形学与多媒体,会议,C,14,ICIG,International Conference on Image and Graphics,Springer,https://dblp.org/db/conf/icig/index.html,50
+计算机图形学与多媒体,会议,C,15,NCMMSC,National Conference on Man-Machine Speech Communication,CCF/中国中文信息学会,https://dblp.org/search?q=NCMMSC,50
+计算机图形学与多媒体,会议,C,16,ASRU,Automatic Speech Recognition and Understanding Workshop,IEEE SLTC,https://dblp.org/db/conf/asru/index.html,50
+计算机图形学与多媒体,会议,C,17,SLT,Spoken Language Technology,IEEE SLTC,https://dblp.org/db/conf/slt/index.html,50
+人工智能,期刊,A,1,AI,Artificial Intelligence,Elsevier,https://dblp.org/db/journals/ai/,51
+人工智能,期刊,A,2,TPAMI,IEEE Transactions on Pattern Analysis and Machine Intelligence,IEEE,https://dblp.org/db/journals/pami/,51
+人工智能,期刊,A,3,IJCV,International Journal of Computer Vision,Springer,https://dblp.org/db/journals/ijcv/,51
+人工智能,期刊,A,4,JMLR,Journal of Machine Learning Research,MIT Press,https://dblp.org/db/journals/jmlr/,51
+人工智能,期刊,B,1,TAP,ACM Transactions on Applied Perception,ACM,https://dblp.org/db/journals/tap/,52
+人工智能,期刊,B,2,AAMAS,Autonomous Agents and Multi-Agent Systems,Springer,https://dblp.org/db/journals/aamas/,52
+人工智能,期刊,B,3,,Computational Linguistics,MIT Press,https://dblp.org/db/journals/coling/,52
+人工智能,期刊,B,4,CVIU,Computer Vision and Image Understanding,Elsevier,https://dblp.org/db/journals/cviu/,52
+人工智能,期刊,B,5,DKE,Data & Knowledge Engineering,Elsevier,https://dblp.org/db/journals/dke/index.html,52
+人工智能,期刊,B,6,,Evolutionary Computation,MIT Press,https://dblp.org/db/journals/ec/,52
+人工智能,期刊,B,7,TAC,IEEE Transactions on Affective Computing,IEEE,https://dblp.org/db/journals/taffco/,52
+人工智能,期刊,B,8,TASLP,"IEEE Transactions on Audio, Speech and Language Processing（原 IEEE/ACM Transactions on Audio, Speech and Language Processing）",IEEE,https://dblp.org/db/journals/taslp/,52
+人工智能,期刊,B,9,,IEEE Transactions on Cybernetics,IEEE,https://dblp.org/db/journals/tcyb/,52
+人工智能,期刊,B,10,TEC,IEEE Transactions on Evolutionary Computation,IEEE,https://dblp.org/db/journals/tec/,52
+人工智能,期刊,B,11,TFS,IEEE Transactions on Fuzzy Systems,IEEE,https://dblp.org/db/journals/tfs/,52
+人工智能,期刊,B,12,TNNLS,IEEE Transactions on Neural Networks and learning systems,IEEE,https://dblp.org/db/journals/tnn/,52
+人工智能,期刊,B,13,IJAR,International Journal of Approximate Reasoning,Elsevier,https://dblp.org/db/journals/ijar/,52
+人工智能,期刊,B,14,JAIR,Journal of Artificial Intelligence Research,AAAI,https://dblp.org/db/journals/jair/index.html,53
+人工智能,期刊,B,15,,Journal of Automated Reasoning,Springer,https://dblp.org/db/journals/jar/,53
+人工智能,期刊,B,16,JSLHR,"Journal of Speech, Language, and Hearing Research",American Speech- Language Hearing Association,https://jslhr.pubs.asha.org/,53
+人工智能,期刊,B,17,,Machine Learning,Springer,https://dblp.org/db/journals/ml/,53
+人工智能,期刊,B,18,,Neural Computation,MIT Press,https://dblp.org/db/journals/neco/,53
+人工智能,期刊,B,19,,Neural Networks,Elsevier,https://dblp.org/db/journals/nn/,53
+人工智能,期刊,B,20,PR,Pattern Recognition,Elsevier,https://dblp.org/db/conf/par/,53
+人工智能,期刊,B,21,TACL,Transactions of the Association for Computational Linguistics,The Association for Computational Linguistics,https://dblp.org/db/journals/tacl/index.html,53
+人工智能,期刊,C,1,TALLIP,ACM Transactions on Asian and Low-Resource Language Information Processing,ACM,https://dblp.org/db/journals/talip/,54
+人工智能,期刊,C,2,,Applied Intelligence,Springer,https://dblp.org/db/journals/apin/,54
+人工智能,期刊,C,3,AIM,Artificial Intelligence in Medicine,Elsevier,https://dblp.org/db/journals/artmed/,54
+人工智能,期刊,C,4,,Artificial Life,MIT Press,https://dblp.org/db/journals/alife/,54
+人工智能,期刊,C,5,,Computational Intelligence,Wiley,https://dblp.org/db/journals/ci/,54
+人工智能,期刊,C,6,,Computer Speech & Language,Elsevier,https://dblp.org/db/journals/csl/,54
+人工智能,期刊,C,7,,Connection Science,Taylor & Francis,https://dblp.org/db/journals/connection/,54
+人工智能,期刊,C,8,DSS,Decision Support Systems,Elsevier,https://dblp.org/db/journals/dss/,54
+人工智能,期刊,C,9,EAAI,Engineering Applications of Artificial Intelligence,Elsevier,https://dblp.org/db/journals/eaai/,54
+人工智能,期刊,C,10,,Expert Systems,Blackwell/ Wiley,https://dblp.org/db/journals/es/,54
+人工智能,期刊,C,11,ESWA,Expert Systems with Applications,Elsevier,https://dblp.org/db/journals/eswa/,54
+人工智能,期刊,C,12,,Fuzzy Sets and Systems,Elsevier,https://dblp.org/db/journals/fss/,54
+人工智能,期刊,C,13,TG,IEEE Transactions on Games,IEEE,https://dblp.org/db/journals/tciaig/,54
+人工智能,期刊,C,14,IET-CVI,IET Computer Vision,IET,https://dblp.org/db/journals/iet-cvi/index.html,54
+人工智能,期刊,C,15,,IET Signal Processing,IET,https://dblp.org/db/journals/iet-spr/index.html,54
+人工智能,期刊,C,16,IVC,Image and Vision Computing,Elsevier,https://dblp.org/db/journals/ivc/,55
+人工智能,期刊,C,17,IDA,Intelligent Data Analysis,IOS Press,https://dblp.org/db/journals/ida/,55
+人工智能,期刊,C,18,IJCIA,International Journal of Computational Intelligence and Applications,World Scientific,https://dblp.org/db/journals/ijcia/,55
+人工智能,期刊,C,19,IJIS,International Journal of Intelligent Systems,Wiley,https://dblp.org/db/journals/ijis/,55
+人工智能,期刊,C,20,IJNS,International Journal of Neural Systems,World Scientific,https://dblp.org/db/journals/ijns/,55
+人工智能,期刊,C,21,IJPRAI,International Journal of Pattern Recognition and Artificial Intelligence,World Scientific,https://dblp.org/db/journals/ijprai/,55
+人工智能,期刊,C,22,IJUFKS,"International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems",World Scientific,https://dblp.org/db/journals/ijufks/,55
+人工智能,期刊,C,23,IJDAR,International Journal on Document Analysis and Recognition,Springer,https://dblp.org/db/journals/ijdar/,55
+人工智能,期刊,C,24,JETAI,Journal of Experimental and Theoretical Artificial Intelligence,Taylor & Francis,https://dblp.org/db/journals/jetai/,55
+人工智能,期刊,C,25,KBS,Knowledge-Based Systems,Elsevier,https://dblp.org/db/journals/kbs/,55
+人工智能,期刊,C,26,,Machine Translation,Springer,https://dblp.org/db/journals/mt/,55
+人工智能,期刊,C,27,,Machine Vision and Applications,Springer,https://dblp.org/db/journals/mva/,55
+人工智能,期刊,C,28,,Natural Computing,Springer,https://dblp.org/db/journals/nc/,55
+人工智能,期刊,C,29,NLE,Natural Language Engineering,Cambridge University Press,https://dblp.org/db/journals/nle/,55
+人工智能,期刊,C,30,NCA,Neural Computing and Applications,Springer,https://dblp.org/db/journals/nca/,55
+人工智能,期刊,C,31,NPL,Neural Processing Letters,Springer,https://dblp.org/db/journals/npl/,56
+人工智能,期刊,C,32,,Neurocomputing,Elsevier,https://dblp.org/db/journals/ijon/,56
+人工智能,期刊,C,33,PAA,Pattern Analysis and Applications,Springer,https://dblp.org/db/journals/paa/,56
+人工智能,期刊,C,34,PRL,Pattern Recognition Letters,Elsevier,https://dblp.org/db/journals/prl/,56
+人工智能,期刊,C,35,,Soft Computing,Springer,https://dblp.org/db/journals/soco/,56
+人工智能,期刊,C,36,WI,Web Intelligence,IOS Press,https://dblp.org/db/journals/wias/,56
+人工智能,期刊,C,37,TIIS,ACM Transactions on Interactive Intelligent Systems,ACM,https://dblp.org/db/journals/tiis/index.html,56
+人工智能,期刊,C,38,TELO,ACM Transactions on Evolutionary Learning and Optimization,ACM,https://dblp.org/db/journals/telo/index.html,56
+人工智能,期刊,C,39,JATS,ACM Journal on Autonomous Transportation Systems,ACM,,56
+人工智能,会议,A,1,AAAI,AAAI Conference on Artificial Intelligence,AAAI,https://dblp.org/db/conf/aaai/,57
+人工智能,会议,A,2,NeurIPS,Conference on Neural Information Processing Systems,MIT Press,https://dblp.org/db/conf/nips/,57
+人工智能,会议,A,3,ACL,Annual Meeting of the Association for Computational Linguistics,ACL,https://dblp.org/db/conf/acl/,57
+人工智能,会议,A,4,CVPR,IEEE/CVF Computer Vision and Pattern Recognition Conference,IEEE,https://dblp.org/db/conf/cvpr/,57
+人工智能,会议,A,5,ICCV,International Conference on Computer Vision,IEEE,https://dblp.org/db/conf/iccv/,57
+人工智能,会议,A,6,ICML,International Conference on Machine Learning,ACM,https://dblp.org/db/conf/icml/,57
+人工智能,会议,A,7,ICLR,International Conference on Learning Representations,OpenReview,https://dblp.org/db/conf/iclr/index.html,57
+人工智能,会议,B,1,COLT,Annual Conference on Computational Learning Theory,Springer,https://dblp.org/db/conf/colt/,58
+人工智能,会议,B,2,EMNLP,Conference on Empirical Methods in Natural Language Processing,ACL,https://dblp.org/db/conf/emnlp/,58
+人工智能,会议,B,3,ECAI,European Conference on Artificial Intelligence,IOS Press,https://dblp.org/db/conf/ecai/,58
+人工智能,会议,B,4,ECCV,European Conference on Computer Vision,Springer,https://dblp.org/db/conf/eccv/,58
+人工智能,会议,B,5,ICRA,IEEE International Conference on Robotics and Automation,IEEE,https://dblp.org/db/conf/icra/,58
+人工智能,会议,B,6,ICAPS,International Conference on Automated Planning and Scheduling,AAAI,https://dblp.org/db/conf/icaps/index.html,58
+人工智能,会议,B,7,ICCBR,International Conference on Case-Based Reasoning,Springer,https://dblp.org/db/conf/iccbr/,58
+人工智能,会议,B,8,COLING,International Conference on Computational Linguistics,International Committee on Computational Linguistics,https://dblp.org/db/conf/coling/,58
+人工智能,会议,B,9,KR,International Conference on Principles of Knowledge Representation and Reasoning,Morgan Kaufmann,https://dblp.org/db/conf/kr/,58
+人工智能,会议,B,10,UAI,Conference on Uncertainty in Artificial Intelligence,AUAI,https://dblp.org/db/conf/uai/,58
+人工智能,会议,B,11,AAMAS,International Joint Conference on Autonomous Agents and Multi-agent Systems,Springer,https://dblp.org/db/conf/ifaamas/index.html,58
+人工智能,会议,B,12,PPSN,Parallel Problem Solving from Nature,Springer,https://dblp.org/db/conf/ppsn/,58
+人工智能,会议,B,13,NAACL,North American Chapter of the Association for Computational Linguistics,Association for Computational Linguistics,https://dblp.org/db/conf/naacl/,58
+人工智能,会议,B,14,IJCAI,International Joint Conference on Artificial Intelligence,Morgan Kaufmann,https://dblp.org/db/conf/ijcai/,58
+人工智能,会议,C,1,AISTATS,International Conference on Artificial Intelligence and Statistics,JMLR,https://dblp.org/db/conf/aistats/,59
+人工智能,会议,C,2,ACCV,Asian Conference on Computer Vision,Springer,https://dblp.org/db/conf/accv/,59
+人工智能,会议,C,3,ACML,Asian Conference on Machine Learning,JMLR,https://dblp.org/db/conf/acml/,59
+人工智能,会议,C,4,BMVC,British Machine Vision Conference,British Machine Vision Association,https://dblp.org/db/conf/bmvc/,59
+人工智能,会议,C,5,NLPCC,CCF International Conference on Natural Language Processing and Chinese Computing,Springer,https://dblp.org/db/conf/nlpcc/,59
+人工智能,会议,C,6,CoNLL,Conference on Computational Natural Language Learning,Association for Computational Linguistics,https://dblp.org/db/conf/conll,59
+人工智能,会议,C,7,GECCO,Genetic and Evolutionary Computation Conference,ACM,https://dblp.org/db/conf/gecco/,59
+人工智能,会议,C,8,ICTAI,IEEE International Conference on Tools with Artificial Intelligence,IEEE,https://dblp.org/db/conf/ictai/,59
+人工智能,会议,C,9,IROS,IEEE\RSJ International Conference on Intelligent Robots and Systems,IEEE,https://dblp.org/db/conf/iros/,59
+人工智能,会议,C,10,ALT,International Conference on Algorithmic Learning Theory,Springer,https://dblp.org/db/conf/alt/,59
+人工智能,会议,C,11,ICANN,International Conference on Artificial Neural Networks,Springer,https://dblp.org/db/conf/icann/,59
+人工智能,会议,C,12,FG,IEEE International Conference on Automatic Face and Gesture Recognition,IEEE,https://dblp.org/db/conf/fgr/,59
+人工智能,会议,C,13,ICDAR,International Conference on Document Analysis and Recognition,IEEE,https://dblp.org/db/conf/icdar/,60
+人工智能,会议,C,14,ILP,International Conference on Inductive Logic Programming,Springer,https://dblp.org/db/conf/ilp/,60
+人工智能,会议,C,15,KSEM,"International conference on Knowledge Science, Engineering and Management",Springer,https://dblp.org/db/conf/ksem/,60
+人工智能,会议,C,16,ICONIP,International Conference on Neural Information Processing,Springer,https://dblp.org/db/conf/iconip/,60
+人工智能,会议,C,17,ICPR,International Conference on Pattern Recognition,IEEE,https://dblp.org/db/conf/icpr/,60
+人工智能,会议,C,18,IJCB,International Joint Conference on Biometrics,IEEE,https://dblp.org/db/conf/icb/,60
+人工智能,会议,C,19,IJCNN,International Joint Conference on Neural Networks,IEEE,https://dblp.org/db/conf/ijcnn/,60
+人工智能,会议,C,20,PRICAI,Pacific Rim International Conference on Artificial Intelligence,Springer,https://dblp.org/db/conf/pricai/,60
+人工智能,会议,C,21,IEEE CEC,Congress on Evolutionary Computation,IEEE,https://dblp.org/db/conf/cec/index.html,60
+人工智能,会议,C,22,DAI,International Conference on Distributed Artificial Intelligence,ACM/ Springer,https://dblp.org/db/conf/dai2/index.html,60
+人机交互与普适计算,期刊,A,1,TOCHI,ACM Transactions on Computer-Human Interaction,ACM,https://dblp.org/db/journals/tochi/,61
+人机交互与普适计算,期刊,A,2,IJHCS,International Journal of Human-Computer Studies,Elsevier,https://dblp.org/db/journals/ijmms/,61
+人机交互与普适计算,期刊,B,1,CSCW,Computer Supported Cooperative Work,Springer,https://dblp.org/db/journals/cscw/,62
+人机交互与普适计算,期刊,B,2,HCI,Human-Computer Interaction,Taylor & Francis,https://dblp.org/db/journals/hhci/,62
+人机交互与普适计算,期刊,B,3,,IEEE Transactions on Human-Machine Systems,IEEE,https://dblp.org/db/journals/thms/,62
+人机交互与普适计算,期刊,B,4,IWC,Interacting with Computers,Oxford University Press,https://dblp.org/db/journals/iwc/,62
+人机交互与普适计算,期刊,B,5,IJHCI,International Journal of Human-Computer Interaction,Taylor & Francis,https://dblp.org/db/journals/ijhci/,62
+人机交互与普适计算,期刊,B,6,UMUAI,User Modeling and User-Adapted Interaction,Springer,https://dblp.org/db/journals/umuai/,62
+人机交互与普适计算,期刊,B,7,TSMC,"IEEE Transactions on Systems, Man,and Cybernetics: Systems",IEEE,https://dblp.org/db/journals/tsmc/tsmc12.html,62
+人机交互与普适计算,期刊,B,8,CCF TPCI,CCF Transactions on Pervasive Computing and Interaction,CCF/ Springer,https://dblp.org/db/journals/ccftpci/index.html,62
+人机交互与普适计算,期刊,C,1,BIT,Behaviour & Information Technology,Taylor & Francis,https://dblp.org/db/journals/behaviourIT/,63
+人机交互与普适计算,期刊,C,2,PUC,Personal and Ubiquitous Computing,Springer,https://dblp.org/db/journals/puc/,63
+人机交互与普适计算,期刊,C,3,PMC,Pervasive and Mobile Computing,Elsevier,https://dblp.org/db/journals/percom/,63
+人机交互与普适计算,期刊,C,4,PACMHCI,Proceedings of the ACM on Human-Computer Interaction,ACM,https://dblp.org/db/journals/pacmhci/index.html,63
+人机交互与普适计算,期刊,C,5,THRI,ACM Transactions on Human-Robot Interaction,ACM,https://dblp.org/db/journals/thri/index.html,63
+人机交互与普适计算,会议,A,1,CSCW,ACM Conference On Computer-Supported Cooperative Work And Social Computing,ACM,https://dblp.org/db/conf/cscw,64
+人机交互与普适计算,会议,A,2,CHI,ACM Conference on Human Factors in Computing Systems,ACM,https://dblp.org/db/conf/chi,64
+人机交互与普适计算,会议,A,3,UbiComp,ACM international joint conference on Pervasive and Ubiquitous Computing,ACM,https://dblp.org/db/conf/huc/,64
+人机交互与普适计算,会议,A,4,UIST,ACM Symposium on User Interface Software and Technology,ACM,https://dblp.org/db/conf/uist/,64
+人机交互与普适计算,会议,B,1,GROUP,ACM International Conference on Supporting Group Work,ACM,https://dblp.org/db/conf/group/,65
+人机交互与普适计算,会议,B,2,IUI,ACM International Conference on Intelligent User Interfaces,ACM,https://dblp.org/db/conf/iui/,65
+人机交互与普适计算,会议,B,3,ISS,ACM International Conference on Interactive Surfaces and Spaces,ACM,https://dblp.org/db/conf/tabletop/,65
+人机交互与普适计算,会议,B,4,ECSCW,European Conference on Computer Supported Cooperative Work,Springer,https://dblp.org/db/conf/ecscw/,65
+人机交互与普适计算,会议,B,5,PERCOM,IEEE International Conference on Pervasive Computing and Communications,IEEE,https://dblp.org/db/conf/percom/,65
+人机交互与普适计算,会议,B,6,MobileHCI,ACM International Conference on Mobile Human- Computer Interaction,ACM,https://dblp.org/db/conf/mhci/,65
+人机交互与普适计算,会议,B,7,ICWSM,The International AAAI Conference on Web and Social Media,AAAI,https://dblp.org/db/conf/icwsm/index.html,65
+人机交互与普适计算,会议,C,1,DIS,ACM SIGCHI Conference on Designing Interactive Systems,ACM,https://dblp.org/db/conf/ACMdis,66
+人机交互与普适计算,会议,C,2,ICMI,ACM International Conference on Multimodal Interaction,ACM,https://dblp.org/db/conf/icmi/,66
+人机交互与普适计算,会议,C,3,ASSETS,International ACM SIGACCESS Conference on Computers and Accessibility,ACM,https://dblp.org/db/conf/assets,66
+人机交互与普适计算,会议,C,4,GI,Graphics Interface,ACM,https://dblp.org/db/conf/graphicsinterface/,66
+人机交互与普适计算,会议,C,5,UIC,IEEE International Conference on Ubiquitous Intelligence and Computing,IEEE,https://dblp.org/db/conf/uic/,66
+人机交互与普适计算,会议,C,6,,IEEE World Haptics Conference,IEEE,https://dblp.org/db/conf/haptics/,66
+人机交互与普适计算,会议,C,7,INTERACT,International Conference on Human- Computer Interaction of International Federation for Information Processing,IFIP,https://dblp.org/db/conf/interact/,66
+人机交互与普适计算,会议,C,8,IDC,ACM Interaction Design and Children,ACM,https://dblp.org/db/conf/acmidc/,66
+人机交互与普适计算,会议,C,9,CollaborateCom,"International Conference on Collaborative Computing: Networking, Applications and Worksharing",Springer,https://dblp.org/db/conf/colcom/,66
+人机交互与普适计算,会议,C,10,CSCWD,International Conference on Computer Supported Cooperative Work in Design,Springer,https://dblp.org/db/conf/cscwd/,66
+人机交互与普适计算,会议,C,11,CoopIS,International Conference on Cooperative Information Systems,Springer,https://dblp.org/db/conf/coopis/,66
+人机交互与普适计算,会议,C,12,MobiQuitous,"International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services",Springer,https://dblp.org/db/conf/mobiquitous/,66
+人机交互与普适计算,会议,C,13,AVI,International Working Conference on Advanced Visual Interfaces,ACM,https://dblp.org/db/conf/avi/,66
+人机交互与普适计算,会议,C,14,GPC,"Conference on Green, Pervasive and Cloud Computing",Springer,https://dblp.org/db/conf/gpc/index.html,66
+人机交互与普适计算,会议,C,15,ICXR,CCF International Conference on Extended Reality,Springer,https://dblp.org/db/conf/icxr/index.html,66
+交叉/综合/新兴,期刊,A,1,JACM,Journal of the ACM,ACM,https://dblp.org/db/journals/jacm/,67
+交叉/综合/新兴,期刊,A,2,Proc. IEEE,Proceedings of the IEEE,IEEE,https://dblp.org/db/journals/pieee/,67
+交叉/综合/新兴,期刊,A,3,SCIS,Science China Information Sciences,Science in China Press/Springer,https://dblp.org/db/journals/chinaf/,67
+交叉/综合/新兴,期刊,A,4,Bioinformatics,Bioinformatics,Oxford University Press,https://dblp.org/db/journals/bioinformatics/,67
+交叉/综合/新兴,期刊,B,1,,Briefings in Bioinformatics,Oxford University Press,https://dblp.org/db/journals/bib/,68
+交叉/综合/新兴,期刊,B,2,Cognition,Cognition,Elsevier,https://www.journals.elsevier.com/cognition/,68
+交叉/综合/新兴,期刊,B,3,TASAE,IEEE Transactions on Automation Science and Engineering,IEEE,https://dblp.org/db/journals/tase/,68
+交叉/综合/新兴,期刊,B,4,TGARS,IEEE Transactions on Geoscience and Remote Sensing,IEEE,https://dblp.org/db/journals/tgrs/,68
+交叉/综合/新兴,期刊,B,5,TITS,IEEE Transactions on Intelligent Transportation Systems,IEEE,https://dblp.org/db/journals/tits/,68
+交叉/综合/新兴,期刊,B,6,TMI,IEEE Transactions on Medical Imaging,IEEE,https://dblp.org/db/journals/tmi/,68
+交叉/综合/新兴,期刊,B,7,TR,IEEE Transactions on Robotics,IEEE,https://dblp.org/db/journals/trob/,68
+交叉/综合/新兴,期刊,B,8,TCBB,IEEE/ACM Transactions on Computational Biology and Bioinformatics,IEEE/ACM,https://dblp.org/db/journals/tcbb/,68
+交叉/综合/新兴,期刊,B,9,JCST,Journal of Computer Science and Technology,SCIENCE PRESS/Springer,https://dblp.org/db/journals/jcst/,68
+交叉/综合/新兴,期刊,B,10,JAMIA,Journal of the American Medical Informatics Association,BMJ Journals,https://dblp.org/db/journals/jamia/,68
+交叉/综合/新兴,期刊,B,11,,PLOS Computational Biology,Public Library of Science,https://dblp.org/db/journals/ploscb/,68
+交叉/综合/新兴,期刊,B,12,,The Computer Journal,Oxford University Press,https://dblp.org/db/journals/cj/,68
+交叉/综合/新兴,期刊,B,13,WWW,World Wide Web,Springer,https://dblp.org/db/journals/www/index.html,68
+交叉/综合/新兴,期刊,B,14,FCS,Frontiers of Computer Science,Higher Education Press,https://dblp.org/db/journals/fcsc/,68
+交叉/综合/新兴,期刊,B,15,BCRA,Blockchain: Research and Applications,浙江大学出版社 /Elsevier,https://dblp.org/search?q=BCRA,68
+交叉/综合/新兴,期刊,C,1,,BMC Bioinformatics,BioMed Central,https://dblp.org/db/journals/bmcbi/,69
+交叉/综合/新兴,期刊,C,2,,Cybernetics and Systems,Taylor & Francis,https://dblp.org/db/journals/cas/,69
+交叉/综合/新兴,期刊,C,3,,IEEE Geoscience and Remote Sensing Letters,IEEE,https://dblp.org/db/journals/lgrs/,69
+交叉/综合/新兴,期刊,C,4,JBHI,IEEE Journal of Biomedical and Health Informatics,IEEE,https://dblp.org/db/journals/titb/,69
+交叉/综合/新兴,期刊,C,5,TBD,IEEE Transactions on Big Data,IEEE,https://dblp.org/db/journals/tbd/,69
+交叉/综合/新兴,期刊,C,6,,IET Intelligent Transport Systems,IET,https://digital-library.theiet.org/content/journals/iet-its,69
+交叉/综合/新兴,期刊,C,7,JBI,Journal of Biomedical Informatics,Elsevier,https://dblp.org/db/journals/jbi/,69
+交叉/综合/新兴,期刊,C,8,,Medical Image Analysis,Elsevier,https://dblp.org/db/journals/mia/,69
+交叉/综合/新兴,期刊,C,9,TII,IEEE Transactions on Industrial Informatics,IEEE,https://dblp.org/db/journals/tii/index.html,69
+交叉/综合/新兴,期刊,C,10,TCPS,ACM Transactions on Cyber-Physical Systems,ACM,https://dblp.org/db/journals/tcps/index.html,69
+交叉/综合/新兴,期刊,C,11,TOCE,ACM Transactions on Computing Education,ACM,https://dblp.org/db/journals/jeric/index.html,69
+交叉/综合/新兴,期刊,C,12,EITEE（原 FITEE）,ENGINEERING Information Technology & Electronic Engineering（原 Frontiers of Information Technology & Electronic Engineering）,浙江大学出版社（原 Springer）,https://www.academax.com/EITEE/home,69
+交叉/综合/新兴,期刊,C,13,TCSS,IEEE Transactions on Computational Social Systems,IEEE,https://dblp.org/db/journals/tcss/index.html,69
+交叉/综合/新兴,期刊,C,14,,IEEE Transactions on Reliability,IEEE,https://dblp.org/db/journals/tr/index.html,69
+交叉/综合/新兴,期刊,C,15,HEALTH,ACM Transactions on Computing for Healthcare,ACM,https://dblp.org/db/journals/health/index.html,69
+交叉/综合/新兴,期刊,C,16,ACM DLT,ACM Distributed Ledger Technologies: Research and Practice,ACM,https://dblp.org/db/journals/distribledger/index.html,69
+交叉/综合/新兴,会议,A,1,WWW,The Web Conference（原 International World Wide Web Conference）,ACM,https://dblp.org/db/conf/www/,70
+交叉/综合/新兴,会议,A,2,RTSS,IEEE Real-Time Systems Symposium,IEEE,https://dblp.org/db/conf/rtss/,70
+交叉/综合/新兴,会议,B,1,CogSci,Annual Meeting of the Cognitive Science Society,Psychology Press,https://dblp.org/db/conf/cogsci/,71
+交叉/综合/新兴,会议,B,2,BIBM,IEEE International Conference on Bioinformatics and Biomedicine,IEEE,https://dblp.org/db/conf/bibm/,71
+交叉/综合/新兴,会议,B,3,EMSOFT,International Conference on Embedded Software,IEEE/ACM /IFIP,https://dblp.org/db/conf/emsoft/,71
+交叉/综合/新兴,会议,B,4,ISMB,International conference on Intelligent Systems for Molecular Biology,Oxford Journals,https://dblp.org/db/conf/ismb/index.html,71
+交叉/综合/新兴,会议,B,5,RECOMB,Annual International Conference on Research in Computational Molecular Biology,Springer,https://dblp.org/db/conf/recomb/,71
+交叉/综合/新兴,会议,B,6,MICCAI,International Conference on Medical Image Computing and Computer-Assisted Intervention,Springer,https://dblp.org/db/conf/miccai/index.html,71
+交叉/综合/新兴,会议,B,7,WINE,Conference on Web and Internet Economics,Springer,https://dblp.org/db/conf/wine/index.html,71
+交叉/综合/新兴,会议,C,1,AMIA,American Medical Informatics Association Annual Symposium,AMIA,https://dblp.org/db/conf/amia/,72
+交叉/综合/新兴,会议,C,2,APBC,Asia Pacific Bioinformatics Conference,BioMed Central,https://dblp.org/db/conf/apbc/,72
+交叉/综合/新兴,会议,C,3,IEEE BigData,IEEE International Conference on Big Data,IEEE,https://dblp.org/db/conf/bigdataconf/,72
+交叉/综合/新兴,会议,C,4,IEEE CLOUD,IEEE International Conference on Cloud Computing,IEEE,https://dblp.org/db/conf/IEEEcloud/,72
+交叉/综合/新兴,会议,C,5,SMC,"IEEE International Conference on Systems, Man, and Cybernetics",IEEE,https://dblp.org/db/conf/smc/,72
+交叉/综合/新兴,会议,C,6,COSIT,International Conference on Spatial Information Theory,ACM,https://dblp.org/db/conf/cosit/,72
+交叉/综合/新兴,会议,C,7,ISBRA,International Symposium on Bioinformatics Research and Applications,Springer,https://dblp.org/db/conf/isbra/,72
+交叉/综合/新兴,会议,C,8,SAGT,International Symposium on Algorithmic Game Theory,Springer,https://dblp.org/db/conf/sagt/index.html,72
+交叉/综合/新兴,会议,C,9,SIGSPATIAL,ACM Special Interest Group on Spatial Information,ACM,https://dblp.org/db/journals/sigspatial/index.html,72
+交叉/综合/新兴,会议,C,10,ICIC,International Conference on Intelligent Computing,Springer-Nature,https://dblp.org/db/conf/icic/index.html,72
+交叉/综合/新兴,会议,C,11,ICSS,International Conference on Service Science,CCF/Springer,https://dblp.org/db/conf/service/index.html,72
+交叉/综合/新兴,会议,C,12,AFT,Advances in Financial Technologies,Springer,https://dblp.org/db/conf/aft/index.html,72
+交叉/综合/新兴,会议,C,13,IJTCS-FAW,International Joint Conference on Theoretical Computer Science - Frontier of Algorithmic Wisdom,Springer,https://dblp.org/db/conf/faw/index.html,72
