@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="个人主页模板，适合发布到 GitHub Pages。"
+    />
+    <title>FlyingPolarBear | 个人主页</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body id="top">
+    <header class="site-header">
+      <a class="brand" href="./index.html" aria-label="返回首页">
+        <span class="brand-mark">FP</span>
+        <span>FlyingPolarBear</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#themes">主题</a>
+        <a href="#work">作品</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Portfolio / Notes / Studio</p>
+          <h1>FlyingPolarBear</h1>
+          <p class="hero-copy">
+            我关注技术、创意表达与持续学习。这里整理项目、文章、实验和长期关注的问题。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">查看作品</a>
+            <a class="button secondary" href="https://github.com/FlyingPolarBear">联系我</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro" id="about">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2>把复杂问题讲清楚，并做成可用的东西。</h2>
+        </div>
+        <div class="intro-copy">
+          <p>
+            这里是 FlyingPolarBear 的个人主页，用来沉淀项目、笔记和创意实验。内容会随着新的学习、开发和研究持续更新。
+          </p>
+          <dl class="quick-facts">
+            <div>
+              <dt>方向</dt>
+              <dd>开发 / 研究 / 创意实践</dd>
+            </div>
+            <div>
+              <dt>所在地</dt>
+              <dd>在线协作</dd>
+            </div>
+            <div>
+              <dt>当前状态</dt>
+              <dd>持续更新中</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section" id="themes">
+        <div class="section-heading">
+          <p class="section-kicker">Themes</p>
+          <h2>多个主题网页</h2>
+        </div>
+        <div class="theme-grid">
+          <a class="theme-card" href="./topics/projects/">
+            <span class="theme-index">01</span>
+            <h3>项目作品</h3>
+            <p>展示你做过的产品、应用、研究项目或课程作品。</p>
+          </a>
+          <a class="theme-card" href="./topics/notes/">
+            <span class="theme-index">02</span>
+            <h3>文章笔记</h3>
+            <p>放学习笔记、技术文章、读书记录和长期思考。</p>
+          </a>
+          <a class="theme-card" href="./topics/studio/">
+            <span class="theme-index">03</span>
+            <h3>创意实验</h3>
+            <p>收集原型、视觉练习、交互尝试和灵感样本。</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="section work" id="work">
+        <div class="section-heading">
+          <p class="section-kicker">Selected Work</p>
+          <h2>精选内容</h2>
+        </div>
+        <div class="work-list">
+          <article class="work-item">
+            <div>
+              <p class="work-meta">2026 / Web App</p>
+              <h3>项目展示</h3>
+            </div>
+            <p>
+              后续会整理代表性项目，包括项目背景、技术方案、实现过程和结果复盘。
+            </p>
+          </article>
+          <article class="work-item">
+            <div>
+              <p class="work-meta">2026 / Research</p>
+              <h3>文章笔记</h3>
+            </div>
+            <p>
+              用来记录技术学习、读书摘要、研究思路和实践经验。
+            </p>
+          </article>
+          <article class="work-item">
+            <div>
+              <p class="work-meta">2025 / Prototype</p>
+              <h3>创意实验</h3>
+            </div>
+            <p>
+              收集早期想法、视觉练习、交互原型和正在迭代的小作品。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>欢迎交流。</h2>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/FlyingPolarBear">GitHub</a>
+          <a href="https://github.com/FlyingPolarBear?tab=repositories">Repositories</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> FlyingPolarBear</span>
+      <a href="#top">回到顶部</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
